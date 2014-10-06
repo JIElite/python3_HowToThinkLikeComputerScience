@@ -1,4 +1,5 @@
 import sys
+import string
 
 def test(did_work):
     line = sys._getframe(1).f_lineno
@@ -18,7 +19,11 @@ def test_suit():
     test(remove("eggs", "bicycle") == "bicycle")
 
 
-
+def test_suit2():
+    test(remove2("an", "banana") == "bana")
+    test(remove2("cyc", "bicycle") == "bile")
+    test(remove2("iss", "Mississippi") == "Missippi")
+    test(remove2("eggs", "bicycle") == "bicycle")
 
 
 def remove(substr, string):
@@ -31,5 +36,17 @@ def remove(substr, string):
     else:
         return string
 
-remove("na","banana")
+
+
+
+def remove2(substr, string):
+    if substr in string:
+        index = string.find(substr)
+        return string[0:index] + string[index + len(substr) : ]
+    return string
+
+
 test_suit()
+print()
+test_suit2()
+

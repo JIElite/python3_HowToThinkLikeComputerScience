@@ -25,8 +25,12 @@ def test_suit2():
 
 
 
-def remove_all_2(substr, string):
-    return string.replace(substr,"")
+def test_suit3 ():
+    test(remove_all_3("an", "banana") == "ba")
+    test(remove_all_3("cyc", "bicycle") == "bile")
+    test(remove_all_3("iss", "Mississippi") == "Mippi")
+    test(remove_all_3("eggs", "bicycle") == "bicycle")
+
 
 
 def remove_all(substr, string):
@@ -40,6 +44,20 @@ def remove_all(substr, string):
 
 
 
+def remove_all_2(substr, string):
+    return string.replace(substr,"")
+
+
+def remove_all_3(substr, string):
+    lst = string.split(substr)
+    new_str = ""
+    for i in lst:
+        new_str += str(i)
+    return new_str
+
 
 test_suit()
+print()
 test_suit2()
+print()
+test_suit3()
