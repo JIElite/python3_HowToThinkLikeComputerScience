@@ -1,0 +1,1766 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="http://realblog.zkiz.com/rssdata/10.xml" title="RSS 2.0" type="application/rss+xml" rel="alternate" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="2013-09-09TWM兩岸年輕人的競爭力到底差多大？北京清華大學20年來極少數被評價特優的師長陳嫦芬，目前在兩岸最高學府教書，對於兩邊實力有第一手觀察，她深深憂慮：台灣人才的培育已經來不及了。撰文施禔盈陳嫦芬，曾任元大金控執行長暨總經理、瑞士銀行投資銀行集團亞太區副董事長暨台灣區總裁、荷蘭荷興霸菱證券集團亞太區董事……。國際金融圈的扎實訓練及投資銀行的完整資歷，讓她受邀至對岸一流學府北京清華大..." />
+<meta name="keywords" content="greatsoup38, 神州股票資訊, 兩岸最高學府名師陳嫦芬：放狗出來，台灣年輕人也會跳牆, RealBlog, 博客, 部落格" />
+<title>兩岸最高學府名師陳嫦芬：放狗出來，台灣年輕人也會跳牆 - 湯財文庫 - 神州股票資訊 - Real Blog</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css" />
+<link rel="stylesheet" type="text/css" href="/css/base.css" />
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+<script type="text/javascript" src="http://connect.facebook.net/zh_TW/all.js#appId=255045087298&amp;xfbml=1"></script>
+
+
+<style type="text/css">
+    .abstract{color:#777}
+.wrapper{width:980px; margin-left:auto; margin-right:auto;}
+</style>
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+
+
+
+
+var current_url = 'http://realblog.zkiz.com/greatsoup38/75180';
+
+var docTitle=document.title;
+
+$.fx.speeds._default = 1000;
+
+function dialog(url, title, iframe,width){
+	var tempContent;
+	if(iframe==true){
+		tempContent = '<iframe style="border:none;height:600px;width:100%" src="'+url+'"></iframe>';
+		$('#modelDialog').find(".modal-body").html(tempContent);
+	}else{
+		$('#modelDialog').find(".modal-body").load(url);
+	}
+	$('#modelDialog').modal('show');
+	$('#modelDialog').find(".modal-title").html(title);
+	if(width>1){
+	//$('#modelDialog').css("width", width );
+	}
+}
+
+function checkNoti(){
+$.get('/ajaxdata.php',{type: 'notify'},
+  function(data){
+	$('#notify').html(data);
+	if(data != '0'){
+		document.title = docTitle + '(' + data + ')';
+	}else{
+		document.title = docTitle;
+	}
+  });
+}
+
+
+$(document).ready(
+	function(){
+		prettyPrint();
+	}
+);
+/* ]]> */
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-4293967-12', 'zkiz.com');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script>
+</head>
+
+<body>
+  <div id="modelDialog" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body"></div>
+		<!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+		
+		-->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+
+<div class="ajaxbox ui-widget-content" id="showajax2" style="border-radius:2px;z-index:2;position:fixed; display:none"></div>
+<div id="fb-root"></div>
+
+<div class="navbar navbar-default navbar-fixed-top" id='rb_navbar'>
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/">RB</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+								
+
+				
+				
+							</ul>
+										<form class="navbar-form navbar-right" name="form1" method="post" action="http://members.zkiz.com/processlogin.php">
+					<div class="form-group">
+						<input name="username" type="text" placeholder="使用者名稱" class="form-control">
+					</div>
+					<div class="form-group">
+						<input name="password" type="password" placeholder="密碼" class="form-control">
+					</div>
+					<input type="hidden" name="refer" value="http://realblog.zkiz.com/greatsoup38/75180" />
+					<button type="submit" class="btn btn-success">登入</button>
+					<a class='btn btn-default' href="http://members.zkiz.com/reg.php">註冊</a>
+				</form>
+				
+					</div><!--/.navbar-collapse -->
+	</div>
+</div>
+
+<div class="container">
+<div class="col-xs-12 col-sm-9 col-lg-9"><div class="page-header">
+<h1 class="blogtitle"><a href="/greatsoup38">湯財文庫</a> <small>這是一個想達到財務自由的小湯的手記。 小湯分為兩個，一為投機的湯、一個為投資的湯， 雖然小資金有點投機性，但骨子內卻是滿佈投資理念。 免責聲明:以下的推介並不構成任何投資建議，投資涉及風險。</small></h1>
+</div>
+
+				<script type="text/javascript"><!--
+google_ad_client = "pub-2146633441538112";
+/* 728x90, 已建立 2008/11/24 */
+google_ad_slot = "4643300330";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br />
+
+<div class="fb-like" data-width="450" data-show-faces="true" data-send="true"></div>
+
+<br />
+<form method="get" action="http://zkiz.com/tag.php" id="searchform">
+<input type="text" name='tag' size="50" placeholder='Zkiz 標題搜尋' />
+<input type='submit' value='搜尋ZKIZ.com' />
+</form>
+<br />
+<div class="mainpart">
+	<div class="cate">
+		
+					<span class="cateitem ">
+				<a href="/greatsoup38/140/0">神州股票資訊</a>(43920)
+			</span>
+					<span class="cateitem ">
+				<a href="/greatsoup38/308/0">台股資訊</a>(10)
+			</span>
+					<span class="cateitem ">
+				<a href="/greatsoup38/309/0">博客好文</a>(9)
+			</span>
+					<span class="cateitem ">
+				<a href="/greatsoup38/315/0">文庫舊文</a>(259)
+			</span>
+					<span class="cateitem ">
+				<a href="/greatsoup38/392/0">香港股票資訊</a>(1516)
+			</span>
+				
+	</div>
+	<div class="clear"></div>
+	<a class='rsslink' href="http://realblog.zkiz.com/rssdata/10.xml"><span class='glyphicon .glyphicon-cloud'></span> 按此訂閱RSS</a>
+
+	<div class="artNav">
+	<div class="left">
+		&lsaquo; <a href='/greatsoup38/75180/prev'>上一篇</a>
+	</div>
+	
+	<div class="right">　　
+		<a href='/greatsoup38/75180/next'>下一篇</a>&rsaquo;
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="content_container">
+	
+	<h1 class="articletitle">[神州股票資訊]兩岸最高學府名師陳嫦芬：放狗出來，台灣年輕人也會跳牆 <small>@ 2013-09-14 17:31:59</small></h1>
+	
+		
+	<div class="contentbody" id="pagecontent">
+					
+			<table class="copy " border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td colspan="3"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="headline" align="left" valign="top">2013-09-09&nbsp; TWM</td>                 <td align="right">&nbsp;</td>           </tr>                                                              <tr>             <td colspan="2">&nbsp;</td>               	   </tr>         </tbody></table><br />             </td>               </tr>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <tr><td>&nbsp;</td></tr>               <tr>                                                          <td colspan="3" class="content"><p>    兩岸年輕人的競爭力到底差多大？</p><p>  北京清華大學20年來極少數被評價特優的師長陳嫦芬，目前在兩岸最高學府教書，對於兩邊實力有第一手觀察，她深深憂慮：台灣人才的培育已經來不及了。</p><p>  撰文 施禔盈</p><p>  陳嫦芬，曾任元大金控執行長暨總經理、瑞士銀行投資銀行集團亞太區副董事長暨台灣區總裁、荷蘭荷興霸菱證券集團亞太區董事……。國際金融圈的扎實訓練及投資銀行的完整資歷，讓她受邀至對岸一流學府北京清華大學任教。</p><p>  陳嫦芬在北京清華經濟管理學院ＭＢＡ開設「職場素養與領導力」課程，兩年的講授，她成為清華二十年來極少數被評價特優的師長。卓越成績在中國快速傳播，「北京清大的陳老師」名聲愈來愈響亮；然而，她其實比較想當「台大的陳老師」，於是向台大財金系毛遂自薦，返母校台大教書；現階段在兩岸最高學府同時任教，站在第一線接觸兩岸頂尖年輕人，她有哪些深刻體會？</p><p>  面對台大的學生，我滿心著急；面對北京清大的學生，我則有一種「得天下英才而教之」的滿足。兩樣情，有點悲哀。我是台南清貧家庭出身的孩子，道道地地的台灣人，何嘗不希望這樣的感受能夠倒轉過來？但我還是要很坦白地說，台灣已被邊緣化，人才的培育來不及了。</p><p>  在清華，我曾在課堂上發問，「沒有當過狀元的人請站起來。」結果，只有不到二○％的學生起立，村的也好、鄉的也罷！幾乎人人都當過狀元，說是萬中選一不為過，當然拔尖優秀。而他們的優秀不僅表現在課業上，好學、進取的態度更讓人折服。</p><p>  只提一次筆記本規格  陸生下堂課已全部更換有一次，我和同學分享在國際投資銀行工作的實況，提到我們習慣使用的筆記本規格，以及怎麼做筆記。沒想到，第二堂課再見到這群學生，他們所使用的筆記本，幾乎全部已更換成國際投行會使用的標準規格。</p><p>  所有的事情講一次、糾正一次，他們極少錯第二次。一再的驗證下，我發現陸生有個特色，那就是只要他們認同你講的原理，那麼明天大家都會「自發」去做對的事情。</p><p>  至於他們打破砂鍋問到底的精神，那更是沒話說，愛問、會問，重點是他們能精準地問，各個口條清晰，能言善道。我也觀察到，他們在課堂上的提問，課前就記錄在筆記本上，並不是臨時起意。當然，上課沒人缺席、沒人遲到，就連下了課都精采萬分，每次四小時的課堂結束後，我都還要被同學團團圍住，黏著問問題，根本沒人想放過老師。</p><p>  經常上演的還有，我與這群年輕人不過是吃吃飯、閒聊天，但回去後我馬上收到email，信上同學告訴我，從今天的談話中得到了什麼啟發，再清楚列示數個重點，還缺什麼，打算看完幾本書且列出書單，再與我相約一個月後碰面報告。</p><p>  所以我才說，在清華教書，是當老師最高的喜悅。只是，面對他們的渴望、積極、進取，回過頭來看台灣年輕人的「不貪心」、浸淫在「小確幸」的狀態中，我的焦慮感因此愈來愈深。</p><p>  台生軟體團隊賺到錢就好  不打算變谷歌最近我就碰到一個「無言」的狀況，某機構請我擔任幾位年輕人的顧問，他們所設計的軟體被國外公司相中，在決定賣與不賣間，我提出建議，希望他們以此做根基，先想辦法尋求培訓，把公司體質強化，再把公司推上國際舞台。</p><p>  沒想到，這些年輕人告訴我：「這樣做已經賺很多了，我們『不貪心』、我們並沒有打算變成Google（谷歌）……。」最後，他們決定用數百萬元把公司賣掉。我不禁感嘆：台灣的年輕人，目光如芝麻嗎？</p><p>  再舉個例，今天如果一個台灣大學生在臉書上寫到：「我被陳老師罵。」接下來的二十則留言會是什麼？「我也有被她罵過、你最棒了、你不要難受啦、沒關係……」請問，這些「溫暖」的留言，能引領你檢討的動能嗎？能重建你追求卓越的精神嗎？</p><p>  面對兩岸的消長，尤其是我在大陸清華教書的衝擊，有一陣子我常問自己：「陳嫦芬，妳在搞什麼？妳究竟是中國還是台灣的老師？」只是「著急」終究不能解決問題，所以一股強烈的動力把我拉回台灣教書，這是我在台大財金系開課的主因，是一種強烈的「急迫感」。開課前，我舉辦了一場說明會，告訴學生，我在北京碰到了什麼，如果你要玩真的才來，否則別來。</p><p>  其實台灣頂尖的年輕人服氣你了，表現還是令人欣慰；班上五十位學生，整學期下來缺席率是「零」，只有兩個學生曾經遲到。</p><p>  誰說，台灣的學生只想在大學玩四年？寒假期間，這群學生整天都跟著我，過年也不回家，他們有很大的渴望變成更好、更棒的人。過程中，雖然我很少肯定他們，但學期結束後，我告訴他們，「你們很接近達到我要的標準。」於是我發現，台灣的學生絕對有潛力，說得白一點，只要你放狗出來，他們還是會想辦法跳牆。</p><p>  那麼，問題出在哪？我曾經問清華的學生：父母對你們最大的期望是什麼？大概七成人的答案不脫：「為廣大的人民服務、在你的領域裡做一個拔尖的人、賺錢要回饋家鄉。」同樣的問題問台大學生，得到的卻是：「快快樂樂、平平安安就好，幸福過一生，做自己喜歡的事。」台灣的爸媽有錯嗎？沒有，但這些是我現在這個年紀在追求的事情。我常問年輕人，如果把人生拉成一條二十五到六十五歲的線，然後要把「追求卓越」這道課題放進去，你認為應該擺在哪個階段呢？我想答案呼之欲出。</p><p>  雖然台灣的年輕人有潛力，我仍要公開講，北京清華學生平均而言，比台大學生優秀；我不怕有人罵我，只想陳述一個事實。</p><p>  清華交換學生  讓台大人輸慘慘當清華學生圍著我說：「老師，這是我系統化的學習，我開出的書單，您有何建議？」「老師，您認為我論述的能力如何，有哪些需要改進之處？」「老師，請您點評我獨立思考的深度。」台大的學生，則是對於和朋友分享哪家餐廳不錯、哪邊好玩的訊息，有更濃厚的興趣。我還是要強調，這沒有對錯，只是時間點錯置了。</p><p>  再講到達標的企圖心，台灣人會圖一個相對舒服的方法去做到，問題是，追求卓越不可能會舒服。程度有別，競爭力立見高下。</p><p>  說個小故事，我在台大原本只收五十位學生，但有一位來自北京清華大學的交換生，因為錯過我在清華的課程，因此要求加入，他是典型的成就動機很強、求知若渴的清大人。他在台灣時，台大這群學生，沒人討論他；他離開後，大家面面相覷。是的，大家都有一個相同的感覺，我們，輸尬ㄊㄧㄢㄊㄧㄢ（台語，輸很慘）！</p><p>  所以，我想對全台灣的父母與師長吶喊：父母要「教」、要「育」，才是「愛」。為師者，在「授業」之外，多投入心力，實踐「傳道」與「解惑」的天職，才不辜負為師之道。</p><p>  陳嫦芬</p><p>  現職：新竹清大科學管理學院副教授、北京清大經濟管理學院特聘主講教師、台大管理學院財金系實務講師學歷：美國史丹佛大學商學研究院訪問學者、台灣大學法律學士講到達標的企圖心，台灣人會圖舒服的方法去做到，問題是，追求卓越不可能會舒服。</p></td></tr></tbody></table><br />								
+											<a class="label label-default" href="/greatsoup38/tag/台股資訊">
+							台股資訊						</a>
+											
+				</div>
+	
+	
+	<div class="panel panel-default">
+
+    <div class="panel-heading">
+        <h4 class="panel-title">評論</h4>
+		<a name="commenta" id="commenta"></a>
+    </div>
+    <div class="panel-body">
+		<div class='comment_container'>
+			
+			
+			<form name="delcom" id='delcom' method="post" action="/greatsoup38/75180">
+			<input name="cid" type="hidden" id='cid' value="" /></form>
+							<div class='commentdiv' id='comment28354'>
+					1. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-22 17:29:37&nbsp;
+										<div>
+						也不想想老師怎麼教的					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 先問問自己夠不夠格接受這些名師的教導								(2013年9月24日) (用戶認證)							</div>
+													<div class='commentdiv'>
+								<strong>Anonymous</strong> :  這種差異在過去十五年在職場上是屨見不鮮的,大陸人才太多了,他們一年畢業七百多萬大學生,拿台灣學生和他們0.005%的尖子比,是有點不自量力.台灣可敢想過和歐美人才總和的0.005%較量嗎?那不是一場春夢嗎?大陸的尖子心裡是在和歐美人才總和相比的,他們常掛在嘴上的就是:[毛主席說的超英趕美哪,我們要上緊發條啊,己經晚了廿年嘍.]台灣敢有這份豪氣嗎?  大陸尖子的眼光是比台灣和歐美的尖子遠大,他們愛談太空武器,誰來主宰宇宙的題目.台灣尖子關心的大錢或是小錢還真是不在他們尖子的眼下.這位商科的教授恐怕無法想像[科技]的那道牆是再逼也跳不過去的,放老虎出來都不行,沒那個智商就別操那個心了. 台灣孩子的心態和生活態度是有自知之明的睿智,沒有錯.蘋果的賈伯斯如果泉下有知,恐怕是非常羨慕那些差堪糊口,笑口常開,活蹦亂跳,沒事就來一下的老台的.我雖然一窮二白,但是我朋友中或是知道的中外友人中身家上億(美金)的,十個手指頭也不夠數,他們的普遍認知還是親情,健康,心情,友情,是比富裕和名聲是優先的. 這位法商教授對人生這一課還得補修.我研究了一下她的面相,她的桃花格和子女格不大順,這就難怪她只看到錢和事業了,可惜了,她年輕時大概也是頗有姿色的,唉,她大概不知道她錯失了些什麼寶貝. :-)								(2013年10月5日) (用戶認證)							</div>
+													<div class='commentdiv'>
+								<strong>看完已上說的話者</strong> : 請問您是台灣人嗎？台灣人講話不會那麼苛刻的。								(6月12日) 							</div>
+													<div class='commentdiv'>
+								<strong>看完以上說的話者</strong> : 請問您是台灣人嗎？台灣人講話不會那麼苛刻的。								(6月12日) 							</div>
+																<a onclick='$("#formcomment28354").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28354' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28354">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28362'>
+					2. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-22 20:59:05&nbsp;
+										<div>
+						對啊 不是說考上國立大學就好了不是嗎?					</div>
+																		<div class='commentdiv'>
+								<strong>This is stupid if you think that way.</strong> : 								(2013年9月23日) 							</div>
+																<a onclick='$("#formcomment28362").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28362' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28362">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28363'>
+					3. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-22 21:11:07&nbsp;
+										<div>
+						台灣的高中老師，不知道教育了學生幾年＂上大學任你玩＂的觀念。					</div>
+										<a onclick='$("#formcomment28363").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28363' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28363">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28367'>
+					4. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-22 21:34:34&nbsp;
+										<div>
+						樓上的 都上了研究所了 還在等老師教？<br />
+你回家吃奶吧！					</div>
+										<a onclick='$("#formcomment28367").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28367' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28367">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28369'>
+					5. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-22 22:33:37&nbsp;
+										<div>
+						這篇文章講的真是好; 台灣人每天都只想著平平安安過日子就好; 說實在誰不想平平安安過日子? 但是現在的時代, 沒有辦法在&quot;不努力還能平平安安下過日子&quot;前進, 如果不努力, 就不要再抱怨只領22K, 因為這是地球村的時代, 台灣已經沒有辦法在把自己置身事外, 但是很少人發現這點, 只想繼續平平安安, 有什麼錯就怪政府 (不管是藍也好, 綠也好)					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 台灣人最可悲的就是井底之蛙的心態								(2013年9月24日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28369").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28369' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28369">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28375'>
+					6. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-22 23:14:17&nbsp;
+										<div>
+						這篇文章有許多不公平的比較標準，沒有確切的數據，只有主觀的看法。有不少條件要放進去考慮：第一：大陸競爭環境遠比台灣高很多，上億的人要是不拼，怎麼進得了清大、北大，學生的企圖心肯定相對性不同啊！第二：國家經濟環境跟發展條件，大陸是持續往前衝，在大陸學生眼中，只要拼就有出路，台灣學生還沒拼，就先喪氣，說自己哪裡不行、環境不行，士氣就先低落，哪來企圖心。第三：不少大陸學生仍然有同90級的困擾，他們一定想要穩定的生活，知道碩士已經不行，而是要往上唸博士，不少人不想回內陸，可以的話，最好待在國外。每個世代都有每個世代該面對的課題，不是一句別的國家學生比台灣優秀，就可以解決或解釋問題。追求卓越不會是幸福的準則，對自己負責，關心他人，追求整體利益。看見對岸學生回答中的重點嗎？「回饋家鄉」。他們心中想的是更高的視野。教育真正最錯的地方是：從未讓學生獨立學習面對生命及學業的課題，而是一昧拼好學校、好課業，其他不用管，當個自私的人，眼界低落，是誰灌輸他們這些觀念，是這個社會，是我們這些成人。不要再把錯推到學生身上，他們比你我有更多的可能性！					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 難道年輕人不會有自己的思考能力？成年人必要時從旁輔助就好了，都大學生了，該清醒了。								(2013年11月21日) (用戶認證)							</div>
+													<div class='commentdiv'>
+								<strong>Anonymous</strong> : 1.台大的就不用拚就進得了台大嗎？								(4月17日) (用戶認證)							</div>
+													<div class='commentdiv'>
+								<strong>Anonymous</strong> : 1.台大的就不用拚就進得了台大嗎？								(4月17日) (用戶認證)							</div>
+													<div class='commentdiv'>
+								<strong>Anonymous</strong> : 2.學生自己承認不行？有人是這樣在教台灣的學生嗎？								(4月17日) (用戶認證)							</div>
+													<div class='commentdiv'>
+								<strong>Anonymous</strong> : 3.台灣的學生就是有你這樣的媽寶型的人在哄，才會造成學生都無主見輸人了。別把錯推給其他人，錯是你、不是我們。你的個人錯不能代表社會成年人的錯。為什麼人家都看得出來學生有問題，就偏偏只有你覺得錯是在於自己不是學生								(4月17日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28375").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28375' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28375">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28378'>
+					7. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 00:13:03&nbsp;
+										<div>
+						蠻諷刺的文章~&quot;為廣大的人民服務、在你的領域裡做一個拔尖的人、賺錢要回饋家鄉&quot; 真的好諷刺啊!話說嚴重的貧富不均,不就是這領域拔尖的人搞出來的&quot;,我欣賞台灣學生的&quot;不貪心&quot;為別人留口飯吃(像歐美的金頭腦都去華爾街而不是搞Science實在不是世界之福啊!)~http://mhperng.blogspot.tw/2013/09/blog-post_2.html?spref=fb					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 難怪台灣會是鬼島，就是這種思維害的。								(2013年9月23日) (用戶認證)							</div>
+													<div class='commentdiv'>
+								<strong>Anonymous</strong> : 哈哈!要打贏吃人血肉的金融怪獸,變成鬼贏面才大啊(have nothing to loose)!								(2013年9月23日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28378").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28378' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28378">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28382'>
+					8. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 00:58:00&nbsp;
+										<div>
+						慘，真的輸慘....<br />
+有人看完文章的念頭不是『我們要急起直追！』<br />
+而是『都是環境、老師害我們的！』					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 感同身受								(2013年9月24日) (用戶認證)							</div>
+													<div class='commentdiv'>
+								<strong>Anonymous</strong> : 要加油啊!!								(2013年9月24日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28382").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28382' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28382">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28383'>
+					9. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 01:19:42&nbsp;
+										<div>
+						感想同八樓					</div>
+										<a onclick='$("#formcomment28383").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28383' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28383">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28387'>
+					10. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 01:36:01&nbsp;
+										<div>
+						與其喊我們輸了輸了輸了<br />
+我們更該想想我們要贏的是什麼，又為什麼要贏？					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 要贏,國際社會沒能力 就只能做苦力了								(2013年9月25日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28387").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28387' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28387">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28388'>
+					11. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 06:43:06&nbsp;
+										<div>
+						但是他們的動機不純，一個唯物主義的的共產國家，實踐的卻是資本主義。培養出的人才只會是讓世界更混亂的怪物。					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 呵呵呵，見他人努力向上就是讓世界更混亂的怪物，台巴思維。								(2013年9月23日) (用戶認證)							</div>
+													<div class='commentdiv'>
+								<strong>Anonymous</strong> : 呵呵呵 台巴掛嘴邊，立論不著邊								(2013年9月25日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28388").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28388' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28388">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28389'>
+					12. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 07:05:17&nbsp;
+										<div>
+						民主與共產的不同					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 是民粹、社會沉淪，與集權、社會向上的不同								(2013年9月23日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28389").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28389' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28389">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28390'>
+					13. 
+											<strong>名稱:</strong>阿米 
+										
+					
+											&nbsp;<strong>E-mail:</strong>misakichen@hotmail.com										
+					<strong>時間:</strong> 2013-09-23 08:24:50&nbsp;
+										<div>
+						每次看到這樣的文章，我都會想到『美國商人和大溪地漁夫』的故事……前者汲汲營營，為的是過後者的生活，他卻不自覺，還一直建議後者應該多工作一些、多賺一些。<br />
+移民到台南、因緣際會上了觀光協會生態導覽系列課，認識了一堆很棒的老師，他們教的不是我們得如何地有競爭力，而是該如何熟悉、保護環境，最重要的是，他們會一再強調，如此，我們才能不斷有『生態財』收入，這絕對是比一份優渥的薪水、理財專員的協助和飲食不正常的高壓工作還要更棒的事業/志業。<br />
+關於競爭力，我想說的是……你們所謂的戰場，到底在哪裡？					</div>
+										<a onclick='$("#formcomment28390").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28390' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28390">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28391'>
+					14. 
+											<strong>名稱:</strong>阿米 
+										
+					
+											&nbsp;<strong>E-mail:</strong>misakichen@hotmail.com										
+					<strong>時間:</strong> 2013-09-23 08:51:48&nbsp;
+										<div>
+						p.s.遇到只會研發、不懂或不愛管理，只想先賺錢入袋的學生，我不是專業，但會想『是不是該把他們介紹給其他瞭解這塊，有能力賺這部分錢的人』，這樣才是多贏吧？不然同樣是蘋果創辦人之ㄧ的沃茲尼克，如果人人都要他成為賈伯斯，那會更好嗎？					</div>
+										<a onclick='$("#formcomment28391").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28391' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28391">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28392'>
+					15. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 11:12:37&nbsp;
+										<div>
+						一定會有人說陳老師賣台。					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 反正只要是稱讚大陸，就一定會有人氣掉跳起來。等待那種見不得別人好的人出現。								(2013年9月23日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28392").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28392' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28392">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28401'>
+					16. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 12:23:27&nbsp;
+										<div>
+						基本上老師會對不同的學生說不同的話, 如果班上學生頻臨放棄學習的邊緣, 那就會用&quot;誘因&quot;讓它們熬過這段時間; 如果學生抗壓力夠, 那老師說的話自然不同...你總不成看這學生都已經沒能力處理眼前的事情了, 還跟他說未來要更辛苦... (所以某樓應該被因材施教過了...) 					</div>
+										<a onclick='$("#formcomment28401").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28401' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28401">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28402'>
+					17. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 13:28:51&nbsp;
+										<div>
+						不論哪一個學習階段，要如何給台灣的學生適度的危機感都是一個很難的課題，尤其是在教育政策刻意減少競爭之下					</div>
+										<a onclick='$("#formcomment28402").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28402' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28402">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28403'>
+					18. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+											&nbsp;<strong>E-mail:</strong>medart@kimo.com										
+					<strong>時間:</strong> 2013-09-23 14:13:41&nbsp;
+										<div>
+						台灣的學生有多少聽的下你們要認真念書, 家裡的環境才會改善, 不用大學任你玩來當餌,現在有多少學生會上鉤~我們輸了是事實!  Catfish effect~~~<br />
+					</div>
+										<a onclick='$("#formcomment28403").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28403' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28403">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28404'>
+					19. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 14:19:26&nbsp;
+										<div>
+						拿台灣跟天朝比?<br />
+台灣除了那寫做民主唸作民粹<br />
+的鬼東西外，<br />
+哪點比得上大天朝??					</div>
+										<a onclick='$("#formcomment28404").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28404' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28404">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28405'>
+					20. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 14:52:05&nbsp;
+										<div>
+						書念得越多越貧賤卑微,讀書決不等於富有,有志之士高中畢業早就不讀從商去了,這就是資本主義					</div>
+										<a onclick='$("#formcomment28405").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28405' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28405">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28410'>
+					21. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 19:54:12&nbsp;
+										<div>
+						沒辦法了!!看到問題還不改善!!只會貶低對方!!十足弱者心態					</div>
+										<a onclick='$("#formcomment28410").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28410' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28410">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28412'>
+					22. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 22:19:55&nbsp;
+										<div>
+						我國教育成功, 輸的人可以稱贏者為匪呀~					</div>
+										<a onclick='$("#formcomment28412").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28412' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28412">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28414'>
+					23. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 22:43:48&nbsp;
+										<div>
+						說得很好。不只學生，上班族也有這樣的心態。往往比較的是誰日子過得舒服，會玩，會吃。沒有孰是孰非，比較像是反映普遍的價值觀。競爭力低落是自然的了，但是幸福感也沒有上升。					</div>
+										<a onclick='$("#formcomment28414").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28414' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28414">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28415'>
+					24. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 23:49:32&nbsp;
+										<div>
+						不過就是個前IBanker的看法而已，從她的履歷，我看不到能下這種評論的深度依據。					</div>
+										<a onclick='$("#formcomment28415").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28415' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28415">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28416'>
+					25. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 23:50:33&nbsp;
+										<div>
+						讀書沒有問題, 但千錯萬錯都在李遠哲教改後,把讀書當商品在看,任何人都可以讀書,都可以拿文憑,只要有錢都不是問題,導致劣幣驅逐良幣,碩士是垃圾,博士時豬狗敗類,...依此類推...此時技職教育出來的奇缺,各個都是萬中選一,碩博久而久之還真他媽的廢物					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 千錯萬錯都在李遠哲教改後,把讀書當商品在看......								(6月10日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28416").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28416' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28416">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28417'>
+					26. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-23 23:53:52&nbsp;
+										<div>
+						碩博士是累贅,產業界不需要普普不會賺錢的碩博士					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : ..... 難怪台灣博班沒人要讀								(2013年9月25日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28417").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28417' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28417">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28420'>
+					27. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-24 02:19:27&nbsp;
+										<div>
+						再認真的老師都會被酸, 台灣酸民心態早就..<br />
+					</div>
+										<a onclick='$("#formcomment28420").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28420' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28420">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28431'>
+					28. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-24 09:54:26&nbsp;
+										<div>
+						陳老師的盲點是，追求「卓越」。人生的目的是追求卓越嗎？一定得追求卓越嗎？您的卓越未必是人生的意義。當有一天你發現一直以來你所追求的卓越變得一文不值時，難道不黯嘆所為為何？每個人的人生價值不同，不必太杞人憂天。					</div>
+										<a onclick='$("#formcomment28431").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28431' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28431">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28433'>
+					29. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-24 10:29:22&nbsp;
+										<div>
+						人生的視野不該永遠只停留在成功失敗，平庸與卓越<br />
+一生所要追尋的東西該由自己來賦予意義<br />
+<br />
+另外既然要說google，要說兩岸<br />
+說個代表人物李開復吧<br />
+&quot;月初證實得了癌症<br />
+在以往的職業生涯裡，我一直篤信『付出總有回報』的信念，所以給自己的負荷一直比較重，甚至堅持每天努力擠出三小時時間工作，還曾天真的和人比賽『誰的睡眠更少』、『誰能在凌晨裡及時回覆郵件』……努力把『拚命』作為自己的一個標籤。現在，冷靜下來反思：這種以健康為代價的堅持，不一定是對的。&quot;<br />
+轉自聯合新聞網<br />
+http://udn.com/NEWS/FINANCE/FIN1/8148083.shtml<br />
+<br />
+					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 賈克斯也是另一箇例子。人多就採取人海戰術。這也宏觀調控人口的一小方便法門。可做不可說，可說不可做，能做大做霸壓倒一切。，。。								(2013年9月26日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28433").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28433' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28433">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28434'>
+					30. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-24 13:16:44&nbsp;
+										<div>
+						幾年前，台灣也和現在的大陸一樣，幾年後，大陸可能也會汗腺在的台灣一樣，社會發展早晚的必經過程吧，然後，大家都一樣。					</div>
+										<a onclick='$("#formcomment28434").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28434' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28434">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28437'>
+					31. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-24 14:27:41&nbsp;
+										<div>
+						如果不敢面對現實, 還在台灣島民意識, 會輸得更慘!					</div>
+										<a onclick='$("#formcomment28437").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28437' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28437">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28438'>
+					32. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-24 14:58:55&nbsp;
+										<div>
+						這麼愛比，比不完啦<br />
+13e vs 0.23e<br />
+怎麼比<br />
+小學沒學過數學嗎?<br />
+接近60倍人口<br />
+台灣假使有一個天才大陸就有60個<br />
+請問要怎麼比? ? ? ? ?<br />
+真的很無聊耶 <br />
+要怎麼比，教一下					</div>
+										<a onclick='$("#formcomment28438").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28438' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28438">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28439'>
+					33. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+											&nbsp;<strong>E-mail:</strong>r98521714@ntu.edu.tw										
+					<strong>時間:</strong> 2013-09-24 16:08:51&nbsp;
+										<div>
+						13E VS 0.23E這位朋友是正解<br />
+如果再加上一點群聚的效益<br />
+就變成今天這篇文章了<br />
+但這也是實實在在的問題					</div>
+										<a onclick='$("#formcomment28439").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28439' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28439">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28451'>
+					34. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-24 23:45:45&nbsp;
+										<div>
+						我想也許他們很拼,但.真的目的應該不是他們說的回饋鄉里什麼的,其實最大的目標還是當有錢人...創業也許有..但也是少數..北大清華這幾年基本上多數也是富人小孩圈了..,本來富人圈能教出來的基本上就比一般家庭的人來的強的多<br />
+在大陸工作快十年,看著他們的經濟發展,其實看著新生代的年青人,不見得他們的小孩就比較好,因為富出來這一代對小孩的疼愛,可不輸台灣.也許因為老師您在一流學府,看到的都是一流頂尖的人,但民間所謂較一般的所謂二本生,三校生,這些人的竟爭力還是遠不及台灣人.<br />
+我說實在話,在大陸職場,完全靠自己,所謂的教你這回事基本少是非常之少,想卡住你不要來擋我位置,才是真大事.但台灣人可是至少會教一下...這也是為什麼台灣人材一向比大陸人踏實好用,這可是連大陸同事都認同的.受教育時是一種情況,但出了社會,能真的為社會做點什麼,才是重點.<br />
+					</div>
+										<a onclick='$("#formcomment28451").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28451' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28451">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28519'>
+					35. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-26 12:04:03&nbsp;
+										<div>
+						中國化的教育人士很喜歡從北京或台北看台灣<br />
+比比歐美人口接近的先進國家就ok了<br />
+where is taiwan scholar?					</div>
+										<a onclick='$("#formcomment28519").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28519' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28519">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28524'>
+					36. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-27 00:50:53&nbsp;
+										<div>
+						我也是台大工學院的學生<br />
+必須承認確實不像小時候那樣積極的學習<br />
+我也想賺大錢<br />
+但卻覺得念了第一名還是要到一些電子公司當勞工<br />
+賣肝賣命<br />
+是我的價值觀錯了 還是事實也是這樣<br />
+我知道不夠積極不對<br />
+但我找不到動力					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : &quot;覺得念了第一名還是要到一些電子公司當勞工&quot;???								(5月2日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28524").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28524' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28524">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28580'>
+					37. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-09-30 17:13:53&nbsp;
+										<div>
+						賺錢要回饋家鄉?為什麼大多數大陸留學生畢業了卻選擇留在國外?					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 你當每個學生都一樣阿.......								(2013年11月21日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28580").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28580' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28580">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28616'>
+					38. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-10-03 08:40:23&nbsp;
+										<div>
+						國家機器讓年輕人變得這個樣子，韓國很多大學生讀完大一後休學，男生去當兵，為的是企業不希望學生畢業之後有斷層出現，二來當兵也能有段時間讓男孩子想想自己結束兵役或回到校園後的目標。還有更多的韓國男女，選擇休學出國打工度假，維持著學生的身份，可能是到菲律賓、可能是到澳洲、台灣、香港、英國、德國、愛爾蘭、加拿大，跟著韓國哥哥姊姊的腳步，一般兩年、三年在國外的生活才又回到韓國，投入企業的招募考試，並且完成學校的學業，又開始了他們的賣肝人生，然而這些企業，是眾所皆知的超大型企業。<br />
+<br />
+台灣有不明確的政治、經濟、國際情勢，多的是讓人缺乏安全感的企業，不難察覺到整個國家機器已經失控。台灣創業的小公司，賣個幾百萬脫手，很正常的，因為台灣的環境讓人太不安，看不到大型的公共建設，只看到政府的無能，與其再台灣老死，不如狠幹一番，能走多遠就多遠 ...					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 自私								(6月10日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28616").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28616' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28616">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28647'>
+					39. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-10-07 21:53:10&nbsp;
+										<div>
+						十幾二十年前的台灣大學生也很拚阿,  正常的啦。美國一流大學的大學生還不是每天開趴。不過台灣的教育環境外在刺激不夠，群體內競爭力不足是事實。尤其以商學院來看，國際化的程度很差。老美商科跟企業的互動很多，國際學生也很多。現在大陸的商學院也是這樣。					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 同感。爸媽那個年代整個社會向上流動充滿動力跟能量。現在念了一堆書還不是......								(1月26日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28647").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28647' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28647">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment28818'>
+					40. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2013-10-22 13:47:58&nbsp;
+										<div>
+						只提一次筆記本規格 陸生下堂課已全部更換有一次；缺課零......嘆!頭腦聰明與努力是沒用的，太乖了，沒種翹課，甚麼都聽老師的按規矩來，就怕缺一次課，少讀1小時書跟不上別人，一點膽量都沒有，成受不了落後別人的壓力					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 別把翹課合理化......								(2013年11月21日) (用戶認證)							</div>
+																<a onclick='$("#formcomment28818").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment28818' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="28818">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment32397'>
+					41. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2014-05-20 13:54:24&nbsp;
+										<div>
+						大家好，我是台大剛畢業不久的學生，嚴肅地呼籲各位教授別在以為我們都是小確幸了喔，至少我和我身邊一些台大的學生並不是，麻煩別再打著陳述事實之名行社會對立之實，發這種嘴砲文章，增加自己被邀約的機會，加深對台灣年輕人/台大學生莫須有的小確幸標籤，感恩!我不知道一位沒有理工背景的教授要怎麼說服我這類型的學生，在我心裡會永遠無法跟這樣的教授溝通。					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 你過十年後,再回頭來看你說的!								(6月10日) (用戶認證)							</div>
+																<a onclick='$("#formcomment32397").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment32397' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="32397">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment32644'>
+					42. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2014-06-06 14:44:41&nbsp;
+										<div>
+						這個所謂陳教授，眼裡只有錢、大生意…是應該在北京教書的，因為她的人生觀和內地一樣。台學生說想開心過一生也是錯嗎？是不是要落得在公司過勞死，出來工作後收賄款才是正確？					</div>
+																		<div class='commentdiv'>
+								<strong>Anonymous</strong> : 就是有你這樣想法的年輕人, 才造就今天的社會環境. 								(6月10日) (用戶認證)							</div>
+																<a onclick='$("#formcomment32644").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment32644' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="32644">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment32749'>
+					43. 
+					 
+						<strong>名稱:</strong><a href="/Anonymous">Anonymous</a>
+													<strong class='memberIndicator'>(RB用戶)</strong>
+																	
+					
+										
+					<strong>時間:</strong> 2014-06-12 10:59:31&nbsp;
+										<div>
+						我想這是不同國家的人民價值觀的問題，<br />
+大陸學子追求樣樣卓越，<br />
+台灣學子是平平安安過的開心就好，<br />
+若以大陸的標準來看，當然會有這樣的問題呈現，<br />
+但說實在的哪種比較好？每個人心中都有不同定見，<br />
+<br />
+但如果是以人類的劣根性，國與國之間是互相競爭，<br />
+不適者淘汰，而不是國與國之間互相扶持，強者照顧弱者（天下大同的理念），那台灣的現象也確實是不利<br />
+至於未來該往哪個方向走？<br />
+我想這是共業的問題，<br />
+當大家都受不了跌到谷底的感覺，自然就會群起往上爬了					</div>
+										<a onclick='$("#formcomment32749").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment32749' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="32749">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+							<div class='commentdiv' id='comment33385'>
+					44. 
+											<strong>名稱:</strong>歐陽姍 
+										
+					
+											&nbsp;<strong>E-mail:</strong>kim.t.cassidy@gmail.com										
+					<strong>時間:</strong> 2014-09-01 16:48:01&nbsp;
+										<div>
+						陳教授,  妳非常的勇敢.  我深深地感覺到你希望台灣好.  看到很多人批評妳, 也就知道這也是台灣的一個特色.  我是藍眼睛黃頭髮的美國人.  我念過北大, 學漢語 在勺園.  後來到台灣在師大學中文.  我住台灣20 年.  我雖然喜歡台灣, 從1990年到現在台灣就是每況愈下, 只要談到大陸的情況幾乎沒有一個人理性.  早期的大陸學生很謙虛, 明明知道自己的國家還要加強. 當時我非常佩服他們求進步的精神, 果然20 年後, 真的變得很厲害.  台灣人很愛聽台灣哪裡好?  夜市很棒, 很有人情味, 也有民主制度.  本來台灣佔優勢, 可惜今天, 只要大家誠實,哪裡進步 答案在大家的面前.					</div>
+										<a onclick='$("#formcomment33385").toggle()' class='btn btn-default btn-sm'>留言</a>
+					
+					<div id='formcomment33385' class='myhide well' >
+						<form name="form2" method="POST" action="/greatsoup38/75180">
+							<input type="text" name="username" value="Anonymous" />:
+							<input type="text" name="says" style="width:200px" maxlength="1000" />
+							
+							<input name="id" type="hidden" value="33385">
+							<input name="tid" type="hidden" value="75180" />
+							<input type="hidden" name="MM_update" value="form2" />
+							<input type="submit" name="button" value="留言">
+							
+						</form>
+					</div>
+				</div>
+				<hr />
+						
+						
+			<h5>留言</h5>
+						<div>
+				<form id="form1" name="form1" method="POST" action="/greatsoup38/75180">
+					<input type="text" placeholder='名稱' name="name" value="Anonymous" /><input type="text" placeholder="E-mail" name="email" />
+					<textarea class='comment_text' placeholder="留言" name="content"></textarea>
+											<div>
+							<img src="/include/securimage/securimage_show.php" alt="CAPTCHA Image" /><br />
+							<div id="recaptcha_image"></div>
+							<input type="text" name="recaptcha_response_field" id="recaptcha_response_field" value="請輸入以上的認證碼" onClick="this.value=''" onBlur="if(this.value==''){this.value='請輸入以上的認證碼';}" style="color:#999;width:100%;max-width:400px" />
+						</div>
+										
+					<input type="submit" name="Submit" value="送出" class='btn btn-default' />
+					<input type="hidden" name="MM_insert" value="form1">
+					<input type="hidden" name="MM_update" value="form1">
+				</form>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+		
+				
+	
+</div>
+
+	
+
+<script type='text/javascript'>
+	function deletecomment(id){
+		if (window.confirm('你確定嗎?')==true){
+			$.post(
+			"/greatsoup38/75180",
+			{cid: id},
+			function(data){
+				if(data == 'success'){$('#comment' + id).hide('slow');}
+			}
+			);
+		}
+		
+	}
+	
+</script>
+</div>
+
+</div><!--end of container-->
+
+	<div class="sidebar col-xs-12 col-sm-3 col-lg-3">
+			<div class="cussidebar">
+		到<a href="http://realblog.zkiz.com/greatsoup">湯財手記</a>
+
+湯財手記搜尋
+<script type="text/javascript" src="/js/searchbox.php?ownerid=9"></script>
+湯財文庫搜尋
+<script type="text/javascript" src="/js/searchbox.php?ownerid=10"></script>
+香港股票資料(輸入股票號碼)
+<form action="http://stock.zkiz.com/query.php" method="post" name="hdform">
+<input name="code" id="code" type="text" /><input name="" type="submit" value="搜尋" />
+<input type="hidden" name="MM_update" value="form" /></form>
+香港股票資料(輸入董事英文名)
+<form action="http://stock.zkiz.com/query.php" method="post" name="hdform">
+<input name="name" id="name" type="text" /><input name="" type="submit" value="搜尋" />
+<input type="hidden" name="MM_update" value="form" /></form>
+<BR>
+Google Search:
+<form action="http://www.google.com.hk/cse" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-2146633441538112:nkamk9-m8vc" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="31" />
+    <input type="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+
+<script type="text/javascript" src="http://www.google.com.hk/cse/brand?form=cse-search-box=zh-Hant"></script> 
+<hr />
+
+<br>
+<a href="http://blogrank.zkiz.com/"><img src="http://blogrank.zkiz.com/button.php?u=greatsoup" alt="博客排行 - blogrank.zkiz.com" border="0" /></a>
+<a href="http://www.top-bloggers.com/billboard/"><img src="http://www.top-bloggers.com/billboard/button.php?u=greatsoup" alt="網誌排行 top-bloggers.com" border="0" /></a>
+
+
+<!-- Histats.com  START  -->
+<a href="http://www.histats.com" target="_blank" title="counter create hit" ><script  type="text/javascript" language="javascript">
+var s_sid = 233377;var st_dominio = 4;
+var cimg = 407;var cwi =118;var che =80;
+</script></a>
+<script  type="text/javascript" language="javascript" src="http://s10.histats.com/js9.js"></script>
+<noscript><a href="http://www.histats.com" target="_blank">
+<img  src="http://s4.histats.com/stats/0.gif?233377&1" alt="counter create hit" border="0"></a>
+</noscript>
+<!-- Histats.com  END  -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5374184-1");
+pageTracker._trackPageview();
+</script>
+
+<script type='text/javascript' src='http://realblog.zkiz.com/js/recentpost.php?ownerid=9'></script>
+
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">最新文章</h4>
+		</div>
+		<ul class="list-group">
+							<li class="list-group-item"><a href='/greatsoup38/114056'>我做淘寶7年的工作經驗總結：5800字</a></li>
+							<li class="list-group-item"><a href='/greatsoup38/114055'>在印度  iPhone不是他們的“菜 ”  這是國產手機的機會？</a></li>
+							<li class="list-group-item"><a href='/greatsoup38/114054'>999誰是二五仔？   朱泙漫屠龍記</a></li>
+							<li class="list-group-item"><a href='/greatsoup38/114052'>小心分辨在別人恐慌時貪婪的意思    止凡</a></li>
+							<li class="list-group-item"><a href='/greatsoup38/114051'>大股東指引  
+                
+                RaymondJook祝振駒                                
+                
+                
+              </a></li>
+							<li class="list-group-item"><a href='/greatsoup38/114050'>自走我步伐  楓葉資料室</a></li>
+							<li class="list-group-item"><a href='/greatsoup38/114049'>回顧9月展望10月  楓葉資料室</a></li>
+							<li class="list-group-item"><a href='/greatsoup38/114048'>公佈業績之後：首都創投    投資之旅 TRENDALYSIS</a></li>
+							<li class="list-group-item"><a href='/greatsoup38/114047'>總結：投資就是尋找預期差，從基本面尋找超預期股票，成功概率高  億利達</a></li>
+							<li class="list-group-item"><a href='/greatsoup38/114046'>$Wayfair(W)$ W研究報告（數據文字通過百度搜索整理） 負二待</a></li>
+					</ul>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">最新回覆</h4>
+		</div>
+		<ul class="list-group">
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/2168'>俾左二千蚊上堂，係咪大部份學員都聘用?...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/113360'>
+『看照約妹』+LINE：baby88990 米奇外送茶坊...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/113360'>米奇Line:baby88990
+及時:Lin068891...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/31007'>can you send me a price list o...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/91875'>大台灣頂級外送一夜情外送粉嫩正妹帝王享受 平價消費
+
+各...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/107444'>hi...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/91875'>大台灣頂級外送一夜情外送粉嫩正妹帝王享受 平價消費
+
+各...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/26654'>http://www.thorse.org/mediawik...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/111194'>求你快占中！哈哈。去做英国奴才吧！...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/112618'>8078真心認為唔算太難計,唔算太高超,比好多財技易調查易明...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/112076'>咁様搞法，經濟想好都難！...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/112076'>123...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/34859'>賈董事長 您好!
+
+我是王水明 生於1952年 在台灣是...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/2168'>千萬不好再幫襯，本人7日按摩後，左邊後背好痛，去醫院看急診，...</a></li>
+							<li class="list-group-item"><a href='http://realblog.zkiz.com/greatsoup38/111714'>Good Article...</a></li>
+					</ul>
+	</div>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Ad Unit #zkiz_tag_left_ATF_160x600 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-4549800596928715"
+     data-ad-slot="6833483781"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+			<div style="clear:both"></div>
+	</div>
+
+
+<div class="footer">
+	<br />
+<form method="get" action="http://zkiz.com/tag.php" id="searchform">
+<input type="text" name='tag' size="50" placeholder='Zkiz 標題搜尋' />
+<input type='submit' value='搜尋ZKIZ.com' />
+</form>
+	
+<br />
+All material on this site, except where otherwise accredited, is copyright to http://realblog.zkiz.com/greatsoup. Media are welcome to quote from articles on this site, provided that such quotation is attributed to http://realblog.zkiz.com/greatsoup.
+
+<script> $("#pagecontent").html('<iframe src="http://www.facebook.com/plugins/like.php?href='+current_url+'&layout=standard&show_faces=true&width=450&action=like&font=arial&colorscheme=light&height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>' + $("#pagecontent").html()); </script>
+
+<a name="fb_share" type="button_count" href="http://www.facebook.com/sharer.php">分享</a> <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+</div>
+
+<div class="pagefooter" id="copyfooter">
+	
+    <div class='left'>
+        Powered by <a href='http://realblog.zkiz.com'><strong>RealBlog</strong></a>
+		100ms (Q= + C=)
+		
+		<div class="btn-group dropup">
+			<button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown">
+				分站 <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				
+				
+				<li><a href="http://www.zkiz.com" class='withNote'>Home</a></li>
+				<li class="divider"></li>
+				<li><a href="http://realforum.zkiz.com" class='withNote'>RealForum</a></li>
+				<li><a href="http://realblog.zkiz.com" class='withpencil'>RealBlog</a></li>
+				<li><a href="http://stock.zkiz.com" class='withSuitcase'>Stock</a></li>
+				<li><a href="http://ec.zkiz.com" class='withNote'>Endless Choice</a></li>
+				<li><a href="http://fancy.zkiz.com" class='withpencil'>Fancy Buzz</a></li>
+				<li><a href="http://gloomy.zkiz.com" target="_blank">Gloomy Sunday</a></li>
+				<li><a href="http://wiki.zkiz.com" target="_blank">ZKIZ Wiki</a></li>
+			</ul>
+		</div>
+		
+	</div>
+	
+	<script>
+		<!--
+		//console.log("
+Warning: base64_encode() expects parameter 1 to be string, array given in /home/zkizcom78f/domains/zkiz.com/public_html/realblog/templatecode/normal_footer.php on line 44
+");
+		-->
+	</script>
+	<!--
+	<a href="http://www.beyondsecurity.com/vulnerability-scanner-verification/realblog.zkiz.com"><img src="https://secure.beyondsecurity.com/verification-images/realblog.zkiz.com/vulnerability-scanner-2.gif" alt="Website Security Test" border="0" /></a>
+	-->
+	<div class="clear"></div>
+</div>
+
+</body>
+</html>

@@ -26,6 +26,15 @@ def test_suit2():
     test(remove2("eggs", "bicycle") == "bicycle")
 
 
+
+def test_suit3():
+    test(remove3("an", "banana") == "bana")
+    test(remove3("cyc", "bicycle") == "bile")
+    test(remove3("iss", "Mississippi") == "Missippi")
+    test(remove3("eggs", "bicycle") == "bicycle")
+
+
+
 def remove(substr, string):
     if substr in string:
         for i in range(len(string) - len(substr) + 1):
@@ -46,7 +55,14 @@ def remove2(substr, string):
     return string
 
 
+
+def remove3(substr, string):
+    return string.replace(substr,"",1)
+
+
+
 test_suit()
 print()
 test_suit2()
-
+print()
+test_suit3()
