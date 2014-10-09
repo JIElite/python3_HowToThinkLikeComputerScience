@@ -1,0 +1,1959 @@
+    _main()
+if __name__ == '__main__':
+
+        sys.exit(1)
+            sys.stderr.write(str(report.total_errors) + '\n')
+        if options.count:
+    if report.total_errors:
+        report.print_results()
+    if options.testsuite and not options.quiet:
+        report.print_benchmark()
+    if options.benchmark:
+        report.print_statistics()
+    if options.statistics:
+        report = pep8style.check_files()
+    else:
+        report = run_tests(pep8style)
+        from testsuite.support import run_tests
+    if options.doctest or options.testsuite:
+    options = pep8style.options
+    pep8style = StyleGuide(parse_argv=True, config_file=True)
+
+        pass    # not supported on Windows
+    except AttributeError:
+        signal.signal(signal.SIGPIPE, lambda signum, frame: sys.exit(1))
+    try:
+    # Handle "Broken pipe" gracefully
+
+    import signal
+    """Parse options and run checks on Python source."""
+def _main():
+
+
+    return options, args
+
+        args = sorted(options.selected_lines)
+        options.selected_lines = parse_udiff(stdin, options.filename, args[0])
+        stdin = stdin_get_value()
+        options.reporter = DiffReport
+    if options.diff:
+
+    options.ignore = options.ignore and options.ignore.split(',')
+    options.select = options.select and options.select.split(',')
+    options.exclude = normalize_paths(options.exclude)
+    options.filename = options.filename and options.filename.split(',')
+
+        options.reporter = parse_argv and options.quiet == 1 and FileReport
+        options = read_config(options, args, arglist, parser)
+                parser.error('input not specified')
+            else:
+                args = ['.']
+                                   for name in PROJECT_CONFIG):
+            if options.diff or any(os.path.exists(name)
+        if parse_argv and not args:
+    elif not options.ensure_value('doctest', False):
+        args.append(options.testsuite)
+    if options.ensure_value('testsuite', False):
+
+    options.reporter = None
+    (options, args) = parser.parse_args(arglist)
+    # parsed from the command line (sys.argv)
+    # If parse_argv is True and arglist is None, arguments are
+        arglist = []
+    if not arglist and not parse_argv:
+    # Don't read the command line if the module is used as a library.
+                         help="user config file location (default: %default)")
+        group.add_option('--config', metavar='path', default=config_file,
+            (parser.prog, ', '.join(parser.config_options))))
+            "of the path(s) being processed.  Allowed options are: %s." %
+            "tox.ini file or the setup.cfg file located in any parent folder "
+            "The project options are read from the [%s] section of the "
+        group = parser.add_option_group("Configuration", description=(
+            config_file = DEFAULT_CONFIG
+        if config_file is True:
+    if not parser.has_option('--config'):
+        parser = get_parser()
+    if not parser:
+    """Process options passed either via arglist or via command line args."""
+                    parser=None):
+def process_options(arglist=None, parse_argv=False, config_file=None,
+
+
+    return options
+    options.doctest = options.testsuite = False
+        (options, __) = parser.parse_args(arglist, values=new_options)
+        # Third, overwrite with the command-line options
+
+            setattr(new_options, normalized_opt, value)
+                value = config.getboolean(pep8_section, opt)
+                assert opt_type in ('store_true', 'store_false')
+            else:
+                    value = normalize_paths(value, local_dir)
+                if normalized_opt == 'exclude':
+                value = config.get(pep8_section, opt)
+            elif opt_type == 'string':
+                value = config.getint(pep8_section, opt)
+            if opt_type in ('int', 'count'):
+            opt_type = option_list[normalized_opt]
+            normalized_opt = opt.replace('-', '_')
+                print("  %s = %s" % (opt, config.get(pep8_section, opt)))
+            if options.verbose > 1:
+                continue
+                print("  unknown option '%s' ignored" % opt)
+            if opt.replace('_', '-') not in parser.config_options:
+        for opt in config.options(pep8_section):
+        # Second, parse the configuration
+
+        (new_options, __) = parser.parse_args([])
+        # First, read the default values
+
+                            for o in parser.option_list])
+        option_list = dict([(o.dest, o.type or o.action)
+    if config.has_section(pep8_section):
+    pep8_section = parser.prog
+
+        (parent, tail) = os.path.split(parent)
+            break
+                print('local configuration: in %s' % parent)
+            if options.verbose:
+            local_dir = parent
+        if config.read([os.path.join(parent, fn) for fn in PROJECT_CONFIG]):
+    while tail:
+    parent = tail = args and os.path.abspath(os.path.commonprefix(args))
+    local_dir = os.curdir
+
+        config.read(user_conf)
+            print('user configuration: %s' % user_conf)
+        if options.verbose:
+    if user_conf and os.path.isfile(user_conf):
+    user_conf = options.config
+
+    config = RawConfigParser()
+    """Read both user configuration and local configuration."""
+def read_config(options, args, arglist, parser):
+
+
+    return parser
+                     help="measure processing speed")
+    group.add_option('--benchmark', action='store_true',
+                         help="run doctest on myself")
+        group.add_option('--doctest', action='store_true',
+                         help="run regression tests from dir")
+        group.add_option('--testsuite', metavar='dir',
+    if os.path.exists(TESTSUITE_PATH):
+    group = parser.add_option_group("Testing Options")
+                           "unified diff received on STDIN")
+                      help="report only lines changed according to the "
+    parser.add_option('--diff', action='store_true',
+                      help="set the error format [default|pylint|<custom>]")
+    parser.add_option('--format', metavar='format', default='default',
+                           "indentation of opening bracket's line")
+                      help="hang closing bracket instead of matching "
+    parser.add_option('--hang-closing', action='store_true',
+                           "(default: %default)")
+                      help="set maximum allowed line length "
+                      default=MAX_LINE_LENGTH,
+    parser.add_option('--max-line-length', type='int', metavar='n',
+                           "total is not null")
+                           "to standard error and set exit code to 1 if "
+                      help="print total number of errors and warnings "
+    parser.add_option('--count', action='store_true',
+                      help="count errors and warnings")
+    parser.add_option('--statistics', action='store_true',
+                           "(implies --first)")
+                      help="show text of PEP 8 for each error "
+    parser.add_option('--show-pep8', action='store_true',
+                      help="show source code for each error")
+    parser.add_option('--show-source', action='store_true',
+                      help="skip errors and warnings (e.g. E4,W)")
+    parser.add_option('--ignore', metavar='errors', default='',
+                      help="select errors and warnings (e.g. E,W6)")
+    parser.add_option('--select', metavar='errors', default='',
+                           "(default: %default)")
+                           "matching these comma separated patterns "
+                      help="when parsing directories, only check filenames "
+    parser.add_option('--filename', metavar='patterns', default='*.py',
+                           "comma separated patterns (default: %default)")
+                      help="exclude files or directories which match these "
+    parser.add_option('--exclude', metavar='patterns', default=DEFAULT_EXCLUDE,
+                      help="show first occurrence of each error")
+    parser.add_option('--first', action='store_false', dest='repeat',
+                      help="(obsolete) show all occurrences of the same error")
+    parser.add_option('-r', '--repeat', default=True, action='store_true',
+                      help="report only file names, or nothing with -qq")
+    parser.add_option('-q', '--quiet', default=0, action='count',
+                      help="print status messages, or debug with -vv")
+    parser.add_option('-v', '--verbose', default=0, action='count',
+        'show-source', 'statistics', 'verbose']
+        'hang-closing', 'count', 'format', 'quiet', 'show-pep8',
+        'exclude', 'filename', 'select', 'ignore', 'max-line-length',
+    parser.config_options = [
+                          usage="%prog [options] input ...")
+    parser = OptionParser(prog=prog, version=version,
+def get_parser(prog='pep8', version=__version__):
+
+
+        return sorted(checks)
+                checks.append((check.__name__, check, args))
+            if any(not (code and self.ignore_code(code)) for code in codes):
+            (codes, args) = attrs
+        for check, attrs in _checks[argument_name].items():
+        checks = []
+        """
+        starts with argument_name and which contain selected tests.
+        Find all globally visible functions where the first argument name
+
+        """Get all the checks for this category.
+    def get_checks(self, argument_name):
+
+                not code.startswith(self.options.select))
+        return (code.startswith(self.options.ignore) and
+            return False
+                                 for s in self.options.select):
+        if len(code) < 4 and any(s.startswith(code)
+        """
+        the error code, return True.
+        return False.  Else, if 'options.ignore' contains a prefix of
+        If 'options.select' contains a prefix of the error code,
+
+        """Check if the error code should be ignored.
+    def ignore_code(self, code):
+
+        return filename_match(filename, self.options.exclude)
+        filename = os.path.abspath(filename)
+            filename = os.path.join(parent, filename)
+        if parent:
+            return True
+        if filename_match(basename, self.options.exclude):
+        basename = os.path.basename(filename)
+            return False
+        if not self.options.exclude:
+        """
+        Check if 'options.exclude' contains a pattern that matches filename.
+
+        """Check if the file should be excluded.
+    def excluded(self, filename, parent=None):
+
+                    runner(os.path.join(root, filename))
+                     not self.excluded(filename, root))):
+                if ((filename_match(filename, filepatterns) and
+                # contain a pattern that matches?
+            for filename in sorted(files):
+                    dirs.remove(subdir)
+                if self.excluded(subdir, root):
+            for subdir in sorted(dirs):
+            counters['directories'] += 1
+                print('directory ' + root)
+            if verbose:
+        for root, dirs, files in os.walk(dirname):
+        runner = self.runner
+        filepatterns = self.options.filename
+        verbose = self.options.verbose
+        counters = self.options.report.counters
+            return 0
+        if self.excluded(dirname):
+        dirname = dirname.rstrip('/')
+        """Check all files in this directory and all subdirectories."""
+    def input_dir(self, dirname):
+
+        return fchecker.check_all(expected=expected, line_offset=line_offset)
+            filename, lines=lines, options=self.options)
+        fchecker = self.checker_class(
+            print('checking %s' % filename)
+        if self.options.verbose:
+        """Run all checks on a Python source file."""
+    def input_file(self, filename, lines=None, expected=None, line_offset=0):
+
+        return report
+        report.stop()
+            print('... stopped')
+        except KeyboardInterrupt:
+                    runner(path)
+                elif not self.excluded(path):
+                    self.input_dir(path)
+                if os.path.isdir(path):
+            for path in paths:
+        try:
+        report.start()
+        runner = self.runner
+        report = self.options.report
+            paths = self.paths
+        if paths is None:
+        """Run all checks on the paths."""
+    def check_files(self, paths=None):
+
+        return self.options.report
+        self.options.report = (reporter or self.options.reporter)(self.options)
+        """Initialize the report instance."""
+    def init_report(self, reporter=None):
+
+        self.init_report()
+        options.ast_checks = self.get_checks('tree')
+        options.logical_checks = self.get_checks('logical_line')
+        options.physical_checks = self.get_checks('physical_line')
+        options.ignore_code = self.ignore_code
+        options.benchmark_keys = BENCHMARK_KEYS[:]
+            options.ignore = ('',) if options.select else tuple(options.ignore)
+            # Ignore all checks which are not explicitly selected
+        else:
+            options.ignore = tuple(DEFAULT_IGNORE.split(','))
+            # The default choice: ignore controversial checks
+                options.testsuite or options.doctest) and DEFAULT_IGNORE:
+        if not (options.select or options.ignore or
+        options.select = tuple(options.select or ())
+
+            options.reporter = BaseReport if options.quiet else StandardReport
+        if not options.reporter:
+
+        self.options = options
+        self.runner = self.input_file
+
+                self.paths = options_dict['paths']
+            if 'paths' in options_dict:
+            options.__dict__.update(options_dict)
+        if options_dict:
+            arglist, parse_argv, config_file, parser)
+        options, self.paths = process_options(
+        arglist = None if parse_argv else options_dict.get('paths', None)
+        options_dict = dict(*args, **kwargs)
+        # build options from dict
+        parser = kwargs.pop('parser', None)
+        config_file = kwargs.pop('config_file', None)
+        parse_argv = kwargs.pop('parse_argv', False)
+        self.checker_class = kwargs.pop('checker_class', Checker)
+        # build options from the command line
+    def __init__(self, *args, **kwargs):
+
+    """Initialize a PEP-8 instance with few options."""
+class StyleGuide(object):
+
+
+        return super(DiffReport, self).error(line_number, offset, text, check)
+            return
+        if line_number not in self._selected[self.filename]:
+    def error(self, line_number, offset, text, check):
+
+        self._selected = options.selected_lines
+        super(DiffReport, self).__init__(options)
+    def __init__(self, options):
+
+    """Collect and print the results for the changed lines only."""
+class DiffReport(StandardReport):
+
+
+        return self.file_errors
+                print('    ' + doc.strip())
+            if self._show_pep8 and doc:
+                print(re.sub(r'\S', ' ', line[:offset]) + '^')
+                print(line.rstrip())
+                    line = self.lines[line_number - 1]
+                else:
+                    line = ''
+                if line_number > len(self.lines):
+            if self._show_source:
+            })
+                'code': code, 'text': text,
+                'row': self.line_offset + line_number, 'col': offset + 1,
+                'path': self.filename,
+            print(self._fmt % {
+        for line_number, offset, code, text, doc in self._deferred_print:
+        self._deferred_print.sort()
+        """Print the result and return the overall count for this file."""
+    def get_file_results(self):
+
+        return code
+                (line_number, offset, code, text[5:], check.__doc__))
+            self._deferred_print.append(
+        if code and (self.counters[code] == 1 or self._repeat):
+                                                 text, check)
+        code = super(StandardReport, self).error(line_number, offset,
+        """Report an error, according to options."""
+    def error(self, line_number, offset, text, check):
+
+            filename, lines, expected, line_offset)
+        return super(StandardReport, self).init_file(
+        self._deferred_print = []
+        """Signal a new file."""
+    def init_file(self, filename, lines, expected, line_offset):
+
+        self._show_pep8 = options.show_pep8
+        self._show_source = options.show_source
+        self._repeat = options.repeat
+                                      options.format)
+        self._fmt = REPORT_FORMAT.get(options.format.lower(),
+        super(StandardReport, self).__init__(options)
+    def __init__(self, options):
+
+    """Collect and print the results of the checks."""
+class StandardReport(BaseReport):
+
+
+    print_filename = True
+    """Collect the results of the checks and print only the filenames."""
+class FileReport(BaseReport):
+
+
+                       self.counters[key]))
+                      (self.counters[key] / self.elapsed, key,
+                print('%-7d %s per second (%d total)' %
+            for key in self._benchmark_keys:
+        if self.elapsed:
+        print('%-7.2f %s' % (self.elapsed, 'seconds elapsed'))
+        """Print benchmark numbers."""
+    def print_benchmark(self):
+
+            print(line)
+        for line in self.get_statistics(prefix):
+        """Print overall statistics (number of errors and warnings)."""
+    def print_statistics(self, prefix=''):
+
+                for key in sorted(self.messages) if key.startswith(prefix)]
+        return ['%-7s %s %s' % (self.counters[key], key, self.messages[key])
+        """
+        prefix='E4' matches all errors that have to do with imports
+        prefix='W' matches all warnings
+        prefix='E' matches all errors
+        prefix='' matches all errors and warnings
+
+        """Get statistics for message codes that start with the prefix.
+    def get_statistics(self, prefix=''):
+
+                    for key in self.messages if key.startswith(prefix)])
+        return sum([self.counters[key]
+        """Return the total count of errors and warnings."""
+    def get_count(self, prefix=''):
+
+        return self.file_errors
+        """Return the count of errors and warnings for this file."""
+    def get_file_results(self):
+
+        return code
+        self.total_errors += 1
+        self.file_errors += 1
+            print(self.filename)
+        if self.print_filename and not self.file_errors:
+            return
+        if code in self.expected:
+        # Don't care about expected errors or warnings
+            self.messages[code] = text[5:]
+            self.counters[code] = 1
+        else:
+            self.counters[code] += 1
+        if code in self.counters:
+            return
+        if self._ignore_code(code):
+        code = text[:4]
+        """Report an error, according to options."""
+    def error(self, line_number, offset, text, check):
+
+        self.counters['logical lines'] += 1
+        """Signal a new logical line."""
+    def increment_logical_line(self):
+
+        self.counters['physical lines'] += len(lines)
+        self.counters['files'] += 1
+        self.file_errors = 0
+        self.line_offset = line_offset
+        self.expected = expected or ()
+        self.lines = lines
+        self.filename = filename
+        """Signal a new file."""
+    def init_file(self, filename, lines, expected, line_offset):
+
+        self.elapsed = time.time() - self._start_time
+        """Stop the timer."""
+    def stop(self):
+
+        self._start_time = time.time()
+        """Start the timer."""
+    def start(self):
+
+        self.messages = {}
+        self.counters = dict.fromkeys(self._benchmark_keys, 0)
+        self.total_errors = 0
+        self.elapsed = 0
+        # Results
+        self._ignore_code = options.ignore_code
+        self._benchmark_keys = options.benchmark_keys
+    def __init__(self, options):
+
+    print_filename = False
+
+    """Collect the results of the checks."""
+class BaseReport(object):
+
+
+        return self.report.get_file_results()
+            self.check_logical()
+            self.check_physical(self.lines[-1])
+        if self.tokens:
+                        self.check_logical()
+                        self.tokens = [tuple(token)]
+                        token[3] = (token[2][0], token[2][1] + len(token[1]))
+                        token[1] = text.rstrip('\r\n')
+                        token = list(token)
+                        # The comment also ends a physical line
+                    if len(self.tokens) == 1:
+                elif COMMENT_WITH_NL and token_type == tokenize.COMMENT:
+                        self.check_logical()
+                    else:
+                        del self.tokens[0]
+                        self.blank_lines += 1
+                        # The physical line contains only this token.
+                    elif len(self.tokens) == 1:
+                        self.blank_before = 0
+                        self.check_logical()
+                    if token_type == tokenize.NEWLINE:
+                if token_type in NEWLINE:
+            elif not parens:
+                    parens -= 1
+                elif text in '}])':
+                    parens += 1
+                if text in '([{':
+            if token_type == tokenize.OP:
+                      (token[2][0], pos, tokenize.tok_name[token[0]], text))
+                print('l.%s\t%s\t%s\t%r' %
+                    pos = 'l.%s' % token[3][0]
+                else:
+                    pos = '[%s:%s]' % (token[2][1] or '', token[3][1])
+                if token[2][0] == token[3][0]:
+            if self.verbose >= 3:
+            token_type, text = token[0:2]
+            self.tokens.append(token)
+        for token in self.generate_tokens():
+        parens = 0
+        self.blank_lines = self.blank_before = 0
+        self.tokens = []
+        self.previous_logical = ''
+        self.indent_level = self.previous_indent_level = 0
+        self.indent_char = None
+        self.line_number = 0
+            self.check_ast()
+        if self._ast_checks:
+        self.total_lines = len(self.lines)
+        self.report.init_file(self.filename, self.lines, expected, line_offset)
+        """Run all checks on the input file."""
+    def check_all(self, expected=None, line_offset=0):
+
+            self.multiline = False
+                self.line_number += 1
+                self.check_physical(line + '\n')
+            for line in token[1].split('\n')[:-1]:
+            self.line_number = token[2][0]
+            self.multiline = True
+                return
+            if noqa(token[4]):
+            #   check_physical() to give accurate feedback
+            #   points to the last line of the string, and we want
+            # - have to wind self.line_number back because initially it
+            #   checks for the entire multiline string
+            #   the magical "# noqa" comment, we disable all physical
+            # - we don't *completely* ignore the last line; if it contains
+            # Subtleties:
+            #
+            # line, and will check it like any other physical line.
+            # the multiline string, so we consider it a regular physical
+            # string *except* for the last one: its newline is outside of
+            # newlines backslash-escaped. Check every physical line in the
+            # multiline string, either triple-quoted or with internal
+            # Less obviously, a string that contains newlines is a
+        elif token[0] == tokenize.STRING and '\n' in token[1]:
+            self.check_physical(token[4])
+            # Obviously, a newline token ends a single physical line.
+        if _is_eol_token(token):
+        # Called after every token, but act only on end of line.
+        """If appropriate (based on token), check current physical line(s)."""
+    def maybe_check_physical(self, token):
+
+            self.report_invalid_syntax()
+        except (SyntaxError, tokenize.TokenError):
+                yield token
+                self.maybe_check_physical(token)
+                    return
+                if token[2][0] > self.total_lines:
+            for token in tokengen:
+        try:
+        tokengen = tokenize.generate_tokens(self.readline)
+            self.report_error(1, 0, 'E902 %s' % self._io_error, readlines)
+        if self._io_error:
+        """Tokenize the file, run physical line checks and yield tokens."""
+    def generate_tokens(self):
+
+                    self.report_error(lineno, offset, text, check)
+                if not self.lines or not noqa(self.lines[lineno - 1]):
+            for lineno, offset, text, check in checker.run():
+            checker = cls(tree, self.filename)
+        for name, cls, __ in self._ast_checks:
+            return self.report_invalid_syntax()
+        except (SyntaxError, TypeError):
+            tree = compile(''.join(self.lines), '', 'exec', PyCF_ONLY_AST)
+        try:
+        """Build the file's AST and run all AST checks."""
+    def check_ast(self):
+
+        self.tokens = []
+        self.blank_lines = 0
+            self.previous_logical = self.logical_line
+            self.previous_indent_level = self.indent_level
+        if self.logical_line:
+                self.report_error(offset[0], offset[1], text, check)
+                    offset = (pos[0], pos[1] + offset - token_offset)
+                            break
+                        if offset <= token_offset:
+                    for token_offset, pos in mapping:
+                if not isinstance(offset, tuple):
+            for offset, text in self.run_check(check, argument_names) or ():
+                print('   ' + name)
+            if self.verbose >= 4:
+        for name, check, argument_names in self._logical_checks:
+            print(self.logical_line[:80].rstrip())
+        if self.verbose >= 2:
+            self.blank_before = self.blank_lines
+        if self.blank_before < self.blank_lines:
+        self.indent_level = expand_indent(start_line[:start_col])
+        start_line = self.lines[start_row - 1]
+        (start_row, start_col) = mapping[0][1]
+        mapping = self.build_tokens_line()
+        self.report.increment_logical_line()
+        """Build a line from tokens and run all logical checks on it."""
+    def check_logical(self):
+
+        return mapping
+        self.noqa = comments and noqa(''.join(comments))
+        self.logical_line = ''.join(logical)
+            (prev_row, prev_col) = end
+            mapping.append((length, end))
+            length += len(text)
+            logical.append(text)
+                    text = line[prev_col:start_col] + text
+                elif prev_col != start_col:  # different column
+                        text = ' ' + text
+                                            and text not in '}])'):
+                    if prev_text == ',' or (prev_text not in '{[('
+                    prev_text = self.lines[prev_row - 1][prev_col - 1]
+                if prev_row != start_row:    # different row
+                (start_row, start_col) = start
+            if prev_row:
+                text = mute_string(text)
+            if token_type == tokenize.STRING:
+                continue
+                comments.append(text)
+            if token_type == tokenize.COMMENT:
+                mapping = [(0, start)]
+            if not mapping:
+                continue
+            if token_type in SKIP_TOKENS:
+        for token_type, text, start, end, line in self.tokens:
+        prev_row = prev_col = mapping = None
+        length = 0
+        comments = []
+        logical = []
+        """Build a logical line from tokens."""
+    def build_tokens_line(self):
+
+                    self.indent_char = line[0]
+                if text[:4] == 'E101':
+                self.report_error(self.line_number, offset, text, check)
+                (offset, text) = result
+            if result is not None:
+            result = self.run_check(check, argument_names)
+        for name, check, argument_names in self._physical_checks:
+        self.physical_line = line
+        """Run all physical checks on a raw input line."""
+    def check_physical(self, line):
+
+        return check(*arguments)
+            arguments.append(getattr(self, name))
+        for name in argument_names:
+        arguments = []
+        """Run a check plugin."""
+    def run_check(self, check, argument_names):
+
+        return line
+            self.indent_char = line[0]
+        if self.indent_char is None and line[:1] in WHITESPACE:
+        self.line_number += 1
+        line = self.lines[self.line_number]
+            return ''
+        if self.line_number >= self.total_lines:
+        """Get the next line from the input buffer."""
+    def readline(self):
+
+                          self.report_invalid_syntax)
+                          'E901 %s: %s' % (exc_type.__name__, exc.args[0]),
+        self.report_error(offset[0], offset[1] or 0,
+            offset = (1, 0)
+        else:
+                offset = offset[1:3]
+            if len(offset) > 2:
+            offset = exc.args[1]
+        if len(exc.args) > 1:
+        (exc_type, exc) = sys.exc_info()[:2]
+        """Check if the syntax is valid."""
+    def report_invalid_syntax(self):
+
+        self.report_error = self.report.error
+        self.report = report or options.report
+                    self.lines[0] = self.lines[0][3:]
+                elif self.lines[0][:3] == '\xef\xbb\xbf':
+                    self.lines[0] = self.lines[0][1:]
+                if ord0 == 0xfeff:
+            if ord0 in (0xef, 0xfeff):  # Strip the UTF-8 BOM
+            ord0 = ord(self.lines[0][0])
+        if self.lines:
+            self.lines = lines
+        else:
+                self.lines = []
+                self._io_error = '%s: %s' % (exc_type.__name__, exc)
+                (exc_type, exc) = sys.exc_info()[:2]
+            except IOError:
+                self.lines = readlines(filename)
+            try:
+        elif lines is None:
+            self.lines = stdin_get_value().splitlines(True)
+            self.filename = 'stdin'
+        elif filename == '-':
+            self.lines = lines or []
+            self.filename = 'stdin'
+        if filename is None:
+        self.filename = filename
+        self.verbose = options.verbose
+        self.hang_closing = options.hang_closing
+        self.multiline = False  # in a multiline string?
+        self.max_line_length = options.max_line_length
+        self._ast_checks = options.ast_checks
+        self._logical_checks = options.logical_checks
+        self._physical_checks = options.physical_checks
+        self._io_error = None
+            assert not kwargs
+        else:
+            options = StyleGuide(kwargs).options
+        if options is None:
+                 options=None, report=None, **kwargs):
+    def __init__(self, filename=None, lines=None,
+
+    """Load a Python source file, tokenize it, check coding style."""
+class Checker(object):
+
+
+init_checks_registry()
+        register_check(function)
+    for (name, function) in inspect.getmembers(mod, inspect.isfunction):
+    mod = inspect.getmodule(register_check)
+    """
+    The first argument name is either 'physical_line' or 'logical_line'.
+
+    """Register all globally visible functions.
+def init_checks_registry():
+
+
+            _add_check(check, 'tree', codes, None)
+        if inspect.getargspec(check.__init__)[0][:2] == ['self', 'tree']:
+    elif inspect.isclass(check):
+            _add_check(check, args[0], codes, args)
+                codes = ERRORCODE_REGEX.findall(check.__doc__ or '')
+            if codes is None:
+        if args and args[0] in ('physical_line', 'logical_line'):
+        args = inspect.getargspec(check)[0]
+    if inspect.isfunction(check):
+            _checks[kind][check] = (codes or [''], args)
+        else:
+            _checks[kind][check][0].extend(codes or [])
+        if check in _checks[kind]:
+    def _add_check(check, kind, codes, args):
+    """Register a new check object."""
+def register_check(check, codes=None):
+
+
+_checks = {'physical_line': {}, 'logical_line': {}, 'tree': {}}
+
+
+##############################################################################
+# Framework to run all checks
+##############################################################################
+
+
+        return token[0] in NEWLINE
+    def _is_eol_token(token):
+else:
+                (token[0] == tokenize.COMMENT and token[1] == token[4]))
+        return (token[0] in NEWLINE or
+    def _is_eol_token(token):
+if COMMENT_WITH_NL:
+
+
+    return any(fnmatch(filename, pattern) for pattern in patterns)
+        return default
+    if not patterns:
+    """
+    If patterns is unspecified, this always returns True.
+
+    """Check if patterns contains a pattern that matches filename.
+def filename_match(filename, patterns, default=True):
+
+
+    return paths
+        paths.append(path.rstrip('/'))
+            path = os.path.abspath(os.path.join(parent, path))
+        if '/' in path:
+    for path in value.split(','):
+    paths = []
+        return value
+    if not value or isinstance(value, list):
+    """
+    Return a list of absolute paths.
+
+    """Parse a comma-separated list of paths.
+def normalize_paths(value, parent=os.curdir):
+
+
+                 if rows and filename_match(path, patterns)])
+                 for (path, rows) in rv.items()
+    return dict([(os.path.join(parent, path), rows)
+            rv[path] = set()
+                path = path[2:]
+            if path[:2] == 'b/':
+            path = line[4:].split('\t', 1)[0]
+        elif line[:3] == '+++':
+            rv[path].update(range(row, row + nrows))
+            (row, nrows) = [int(g or '1') for g in hunk_match.groups()]
+            hunk_match = HUNK_REGEX.match(line)
+        if line[:3] == '@@ ':
+            continue
+                nrows -= 1
+            if line[:1] != '-':
+        if nrows:
+    for line in diff.splitlines():
+    path = nrows = None
+    rv = {}
+    # and the value is a set of row numbers to consider.
+    # For each file of the diff, the entry key is the filename,
+    """Return a dictionary of matching lines."""
+def parse_udiff(diff, patterns=None, parent='.'):
+
+
+    return text[:start] + 'x' * (end - start) + text[end:]
+        end -= 2
+        start += 2
+    if text[-3:] in ('"""', "'''"):
+    # Triple quotes
+    end = len(text) - 1
+    start = text.index(text[-1]) + 1
+    # String modifiers (e.g. u or r)
+    """
+    "r'xxx'"
+    >>> mute_string("r'abc'")
+    "'''xxx'''"
+    >>> mute_string("'''abc'''")
+    '"xxx"'
+    >>> mute_string('"abc"')
+
+    """Replace contents with 'xxx' to prevent syntax matching.
+def mute_string(text):
+
+
+    return result
+            break
+        else:
+            result += 1
+        elif char == ' ':
+            result = result // 8 * 8 + 8
+        if char == '\t':
+    for char in line:
+    result = 0
+        return len(line) - len(line.lstrip())
+    if '\t' not in line:
+    """
+    16
+    >>> expand_indent('        \t')
+    8
+    >>> expand_indent('       \t')
+    8
+    >>> expand_indent('\t')
+    4
+    >>> expand_indent('    ')
+
+    Tabs are expanded to the next multiple of 8.
+
+    r"""Return the amount of indentation.
+def expand_indent(line):
+
+
+noqa = re.compile(r'# no(?:qa|pep8)\b', re.I).search
+        return TextIOWrapper(sys.stdin.buffer, errors='ignore').read()
+    def stdin_get_value():
+
+    isidentifier = str.isidentifier
+                return f.readlines()
+            with open(filename, encoding='latin-1') as f:
+            # Fall back if file encoding is improperly declared
+        except (LookupError, SyntaxError, UnicodeError):
+                return [l.decode(coding) for l in lines] + f.readlines()
+                f = TextIOWrapper(f, coding, line_buffering=True)
+                (coding, lines) = tokenize.detect_encoding(f.readline)
+            with open(filename, 'rb') as f:
+        try:
+        """Read the source code."""
+    def readlines(filename):
+    # Python 3
+else:
+    stdin_get_value = sys.stdin.read
+    isidentifier = re.compile(r'[a-zA-Z_]\w*').match
+            return f.readlines()
+        with open(filename, 'rU') as f:
+        """Read the source code."""
+    def readlines(filename):
+    # Python 2: implicit encoding.
+if '' == ''.encode():
+
+
+##############################################################################
+# Helper functions
+##############################################################################
+
+
+        yield pos, "W604 backticks are deprecated, use 'repr()'"
+    if pos > -1:
+    pos = logical_line.find('`')
+    """
+    W604: val = `1 + 2`
+    Okay: val = repr(1 + 2)
+
+    r"""Backticks are removed in Python 3: use repr() instead.
+def python_3000_backticks(logical_line):
+
+
+        yield pos, "W603 '<>' is deprecated, use '!='"
+    if pos > -1:
+    pos = logical_line.find('<>')
+    """
+    W603: if a <> 'no':
+    Okay: if a != 'no':
+
+    The older syntax is removed in Python 3.
+
+    r"""New code should always use != instead of <>.
+def python_3000_not_equal(logical_line):
+
+
+        yield match.end() - 1, "W602 deprecated form of raising exception"
+    if match and not RERAISE_COMMA_REGEX.match(logical_line):
+    match = RAISE_COMMA_REGEX.match(logical_line)
+    """
+    W602: raise DummyError, "Message"
+    Okay: raise DummyError("Message")
+
+    The older form is removed in Python 3.
+
+    r"""When raising an exception, use "raise ValueError('message')".
+def python_3000_raise_comma(logical_line):
+
+
+        yield pos, "W601 .has_key() is deprecated, use 'in'"
+    if pos > -1 and not noqa:
+    pos = logical_line.find('.has_key(')
+    """
+    W601: assert d.has_key('alph')
+    Okay: if "alph" in d:\n    print d["alph"]
+
+    r"""The {}.has_key() method is removed in Python 3: use the 'in' operator.
+def python_3000_has_key(logical_line, noqa):
+
+
+        yield match.start(), "E721 do not compare types, use 'isinstance()'"
+            return  # Allow comparison for types which are not obvious
+        if inst and isidentifier(inst) and inst not in SINGLETONS:
+        inst = match.group(1)
+    if match:
+    match = COMPARE_TYPE_REGEX.search(logical_line)
+    """
+    Okay: if type(a1) is type(b1):
+    Okay: if isinstance(obj, basestring):
+
+    class, basestring, so you can do:
+    unicode string too! In Python 2.3, str and unicode have a common base
+    When checking if an object is a string, keep in mind that it might be a
+
+    E721: if type(obj) is type(1):
+    Okay: if isinstance(obj, int):
+
+    Do not compare types directly.
+
+    r"""Object type comparisons should always use isinstance().
+def comparison_type(logical_line):
+
+
+            yield pos, "E714 test for object identity should be 'is not'"
+        else:
+            yield pos, "E713 test for membership should be 'not in'"
+        if match.group(2) == 'in':
+        pos = match.start(1)
+    if match:
+    match = COMPARE_NEGATIVE_REGEX.search(logical_line)
+    """
+    E714: Z = not X.B is Y
+    E714: if not X is Y:\n    pass
+    E713: if not X.B in Y:\n    pass
+    E713: Z = not X in Y
+    Okay: zz = x is not y
+    Okay: if not (X in Y):\n    pass
+    Okay: assert (X in Y or X is Z)
+    Okay: if x not in y:\n    pass
+
+    r"""Negative comparison should be done using "not in" and "is not".
+def comparison_negative(logical_line):
+
+
+                               (code, singleton, msg))
+        yield match.start(1), ("%s comparison to %s should be %s" %
+            msg += " or 'if %scond:'" % ('' if nonzero else 'not ')
+                       (singleton == 'False' and not same))
+            nonzero = ((singleton == 'True' and same) or
+            code = 'E712'
+        else:
+            code = 'E711'
+        if singleton in ('None',):
+        msg = "'if cond is %s:'" % (('' if same else 'not ') + singleton)
+        singleton = match.group(2)
+        same = (match.group(1) == '==')
+    if match:
+    match = not noqa and COMPARE_SINGLETON_REGEX.search(logical_line)
+    """
+    container) that could be false in a boolean context!
+    set to some other value.  The other value might have a type (such as a
+    e.g. when testing whether a variable or argument that defaults to None was
+    Also, beware of writing if x when you really mean if x is not None --
+
+    E712: if arg == True:
+    E711: if arg != None:
+    Okay: if arg is not None:
+
+    with "is" or "is not", never the equality operators.
+    Comparisons to singletons like None should always be done
+
+    r"""Comparison to singletons should use "is" or "is not".
+def comparison_to_singleton(logical_line, noqa):
+
+
+                parens -= 1
+            elif text in ')]}':
+                parens += 1
+            if text in '([{':
+        if token_type == tokenize.OP:
+            prev_start = start[0]
+        else:
+            prev_start = prev_end = end[0]
+                backslash = None
+            else:
+                backslash = (end[0], len(line.splitlines()[-1]) - 1)
+            if line.rstrip('\r\n').endswith('\\'):
+        if end[0] != prev_end:
+            yield backslash, "E502 the backslash is redundant between brackets"
+        if start[0] != prev_start and parens and backslash:
+    for token_type, text, start, end, line in tokens:
+    prev_start = prev_end = parens = 0
+    """
+    Okay: aaa = "bbb " \\n    "ccc"
+    Okay: aaa = ("bbb "\n       "ccc")
+    Okay: aaa = [123,\n       123]
+
+    E502: aaa = ("bbb " \\n       "ccc")
+    E502: aaa = [123, \\n       123]
+
+    should be used in preference to using a backslash for line continuation.
+    broken over multiple lines by wrapping expressions in parentheses.  These
+    continuation inside parentheses, brackets and braces.  Long lines can be
+    The preferred way of wrapping long lines is by using Python's implied line
+
+    r"""Avoid explicit line join between brackets.
+def explicit_line_join(logical_line, tokens):
+
+
+        found = line.find(';', found + 1)
+            yield found, "E703 statement ends with a semicolon"
+        else:
+            yield found, "E702 multiple statements on one line (semicolon)"
+        if found < last_char:
+    while -1 < found:
+    found = line.find(';')
+        found = line.find(':', found + 1)
+                yield found, "E701 multiple statements on one line (colon)"
+            else:
+                yield 0, "E704 multiple statements on one line (def)"
+            if before.startswith('def '):
+                break
+                yield 0, "E731 do not assign a lambda expression, use a def"
+            if LAMBDA_REGEX.search(before):
+             before.count('(') <= before.count(')'))):    # (annotation)
+             before.count('[') <= before.count(']') and   # [1:2] (slice)
+        if ((before.count('{') <= before.count('}') and   # {'a': 1} (dict)
+        before = line[:found]
+    while -1 < found < last_char:
+    found = line.find(':')
+    last_char = len(line) - 1
+    line = logical_line
+    """
+    E731: f = lambda x: 2*x
+    E704: def f(x): return 2*x
+    E703: do_four();  # useless semicolon
+    E702: do_one(); do_two(); do_three()
+    E701: if foo == 'blah': one(); two(); three()
+    E701: finally: cleanup()
+    E701: try: something()
+    E701: else: do_non_blah_thing()
+    E701: if foo == 'blah': do_blah_thing()
+    E701: while t < 10: t = delay()
+    E701: for x in lst: total += x
+    E701: if foo == 'blah': do_blah_thing()
+
+    Okay: do_three()
+    Okay: do_two()
+    Okay: do_one()
+    Okay: if foo == 'blah':\n    do_blah_thing()
+
+    binds a lambda expression directly to a name.
+    Always use a def statement instead of an assignment statement that
+
+    Also avoid folding such long lines!
+    on the same line, never do this for multi-clause statements.
+    While sometimes it's okay to put an if/for/while with a small body
+
+    r"""Compound statements (on the same line) are generally discouraged.
+def compound_statements(logical_line):
+
+
+            yield found, "E401 multiple imports on one line"
+        if -1 < found and ';' not in line[:found]:
+        found = line.find(',')
+    if line.startswith('import '):
+    line = logical_line
+    """
+    Okay: import foo.bar.yourclass
+    Okay: import myclass
+    Okay: from foo.bar.yourclass import YourClass
+    Okay: from myclas import MyClass
+    Okay: from subprocess import Popen, PIPE
+
+    E401: import sys, os
+    Okay: import os\nimport sys
+
+    r"""Imports should usually be on separate lines.
+def imports_on_separate_lines(logical_line):
+
+
+            prev_end = end
+        elif token_type != tokenize.NL:
+                    yield start, "E266 too many leading '#' for block comment"
+                elif comment:
+                    yield start, "E265 block comment should start with '# '"
+                if bad_prefix != '#':
+            elif bad_prefix and (bad_prefix != '!' or start[0] > 1):
+                    yield start, "E262 inline comment should start with '# '"
+                if bad_prefix or comment[:1] in WHITESPACE:
+            if inline_comment:
+            bad_prefix = symbol not in '#:' and (symbol.lstrip('#')[:1] or '#')
+            symbol, sp, comment = text.partition(' ')
+                           "E261 at least two spaces before inline comment")
+                    yield (prev_end,
+                if prev_end[0] == start[0] and start[1] < prev_end[1] + 2:
+            if inline_comment:
+            inline_comment = line[:start[1]].strip()
+        if token_type == tokenize.COMMENT:
+    for token_type, text, start, end, line in tokens:
+    prev_end = (0, 0)
+    """
+    E266: ### Block comment
+    E265: #Block comment
+    E262: x = x + 1  #  Increment x
+    E262: x = x + 1  #Increment x
+    E261: x = x + 1 # Increment x
+    Okay: # Block comment
+    Okay: x = x + 1    # Increment x
+    Okay: x = x + 1  # Increment x
+
+    (unless it is indented text inside the comment).
+    Each line of a block comment starts with a # and a single space
+
+    They should start with a # and a single space.
+    comments should be separated by at least two spaces from the statement.
+    An inline comment is a comment on the same line as a statement.  Inline
+
+    r"""Separate inline comments by at least two spaces.
+def whitespace_before_comment(logical_line, tokens):
+
+
+        prev_end = end
+                    yield (prev_end, message)
+                if start != prev_end:
+                no_space = True
+            elif parens and text == '=':
+                parens -= 1
+            elif text == ')':
+                parens += 1
+            if text == '(':
+        elif token_type == tokenize.OP:
+                yield (prev_end, message)
+            if start != prev_end:
+            no_space = False
+        if no_space:
+            continue
+        if token_type == tokenize.NL:
+    for token_type, text, start, end, line in tokens:
+    message = "E251 unexpected spaces around keyword / parameter equals"
+    prev_end = None
+    no_space = False
+    parens = 0
+    """
+    E251: return magic(r = real, i = imag)
+    E251: def complex(real, imag = 0.0):
+
+    Okay: boolean(a >= b)
+    Okay: boolean(a <= b)
+    Okay: boolean(a != b)
+    Okay: boolean(a == b)
+    Okay: return magic(r=real, i=imag)
+    Okay: def complex(real, imag=0.0):
+
+    keyword argument or a default parameter value.
+    Don't use spaces around the '=' sign when used to indicate a
+
+    r"""Don't use spaces around the '=' sign in function arguments.
+def whitespace_around_named_parameter_equals(logical_line, tokens):
+
+
+            yield found, "E241 multiple spaces after '%s'" % m.group()[0]
+        else:
+            yield found, "E242 tab after '%s'" % m.group()[0]
+        if '\t' in m.group():
+        found = m.start() + 1
+    for m in WHITESPACE_AFTER_COMMA_REGEX.finditer(line):
+    line = logical_line
+    """
+    E242: a = (1,\t2)
+    E241: a = (1,  2)
+    Okay: a = (1, 2)
+
+    Note: these checks are disabled by default
+
+    r"""Avoid extraneous whitespace after a comma or a colon.
+def whitespace_around_comma(logical_line):
+
+
+        prev_end = end
+        prev_text = text
+        prev_type = token_type
+                need_space = False
+                yield prev_end, "E225 missing whitespace around operator"
+                # A needed opening space was not found
+            elif need_space and start == prev_end:
+                need_space = (prev_end, start != prev_end)
+                # trailing space matches opening space
+                # Surrounding space is optional, but ensure that
+            if need_space is None:
+
+                need_space = None
+            elif text in WS_OPTIONAL_OPERATORS:
+                    need_space = None
+                        else prev_text not in KEYWORDS):
+                if (prev_text in '}])' if prev_type == tokenize.OP
+                # Allow argument unpacking: foo(*args, **kwargs).
+                # Allow unary operators: -123, -x, +1.
+                # Check if the operator is being used as a binary operator
+            elif text in UNARY_OPERATORS:
+                need_space = True
+            elif text in WS_NEEDED_OPERATORS:
+                pass
+                # Allow keyword args or defaults: foo(bar=None).
+            if text == '=' and parens:
+        elif token_type == tokenize.OP and prev_end is not None:
+                need_space = False
+                           "around %s operator" % (code, optype))
+                    yield (need_space[0], "%s missing whitespace "
+                        code, optype = 'E227', 'bitwise or shift'
+                    elif prev_text not in ARITHMETIC_OP:
+                        code, optype = 'E228', 'modulo'
+                    if prev_text == '%':
+                    code, optype = 'E226', 'arithmetic'
+                else:
+                    yield prev_end, "E225 missing whitespace around operator"
+                    # A needed trailing space was not found
+                if need_space is True or need_space[1]:
+            else:
+                pass
+                # Deal with Python 3's annotated return value "->"
+                # Tolerate the "<>" operator, even if running Python 3
+            elif text == '>' and prev_text in ('<', '-'):
+                need_space = False
+                           "E225 missing whitespace around operator")
+                    yield (need_space[0],
+                if need_space is not True and not need_space[1]:
+                # Found a (probably) needed space
+            if start != prev_end:
+        if need_space:
+            parens -= 1
+        elif text == ')':
+            parens += 1
+        if text in ('(', 'lambda'):
+            continue
+        if token_type in SKIP_COMMENTS:
+    for token_type, text, start, end, line in tokens:
+    prev_text = prev_end = None
+    prev_type = tokenize.OP
+    need_space = False
+    parens = 0
+    """
+    E228: msg = fmt%(errno, errmsg)
+    E227: c = a|b
+    E226: hypot2 = x*x + y*y
+    E226: c = (a+b) * (a-b)
+    E225: z = x **y
+    E225: x = x /2 - 1
+    E225: submitted +=1
+    E225: i=i+1
+
+    Okay: alpha[:-i]
+    Okay: foo(bar, key='word', *args, **kwargs)
+    Okay: c = (a + b) * (a - b)
+    Okay: hypot2 = x * x + y * y
+    Okay: x = x * 2 - 1
+    Okay: submitted += 1
+    Okay: i = i + 1
+
+      whitespace around the operators with the lowest priorities.
+    - If operators with different priorities are used, consider adding
+
+      Booleans (and, or, not).
+      comparisons (==, <, >, !=, <=, >=, in, not in, is, is not),
+      either side: assignment (=), augmented assignment (+=, -= etc.),
+    - Always surround these binary operators with a single space on
+
+    r"""Surround operators with a single space on either side.
+def missing_whitespace_around_operator(logical_line, tokens):
+
+
+            yield match.start(2), "E222 multiple spaces after operator"
+        elif len(after) > 1:
+            yield match.start(2), "E224 tab after operator"
+        if '\t' in after:
+
+            yield match.start(1), "E221 multiple spaces before operator"
+        elif len(before) > 1:
+            yield match.start(1), "E223 tab before operator"
+        if '\t' in before:
+
+        before, after = match.groups()
+    for match in OPERATOR_REGEX.finditer(logical_line):
+    """
+    E224: a = 4 +\t5
+    E223: a = 4\t+ 5
+    E222: a = 4 +  5
+    E221: a = 4  + 5
+    Okay: a = 12 + 3
+
+    r"""Avoid extraneous whitespace around an operator.
+def whitespace_around_operator(logical_line):
+
+
+        prev_end = end
+        prev_text = text
+        prev_type = token_type
+            yield prev_end, "E211 whitespace before '%s'" % text
+                not keyword.iskeyword(prev_text)):
+                # Allow "return (a.foo for a in range(5))"
+            (index < 2 or tokens[index - 2][1] != 'class') and
+            # Syntax "class A (B):" is allowed, but avoid it
+            (prev_type == tokenize.NAME or prev_text in '}])') and
+            start != prev_end and
+            text in '([' and
+        if (token_type == tokenize.OP and
+        token_type, text, start, end, __ = tokens[index]
+    for index in range(1, len(tokens)):
+    prev_type, prev_text, __, prev_end, __ = tokens[0]
+    """
+    E211: dict['key'] = list [index]
+    E211: dict ['key'] = list[index]
+    Okay: dict['key'] = list[index]
+
+    E211: spam (1)
+    Okay: spam(1)
+
+    - before the open parenthesis that starts an indexing or slicing.
+      function call.
+    - before the open parenthesis that starts the argument list of a
+    Avoid extraneous whitespace in the following situations:
+
+    r"""Avoid extraneous whitespace.
+def whitespace_before_parameters(logical_line, tokens):
+
+
+        yield pos, "%s with same indent as next logical line" % code
+            code = "E125 continuation line"
+        else:
+            code = "E129 visually indented line"
+        if visual_indent:
+        pos = (start[0], indent[0] + 4)
+    if indent_next and expand_indent(line) == indent_level + 4:
+
+            rel_indent[end[0] - first_row] = rel_indent[row]
+        if last_token_multiline:
+        last_token_multiline = (start[0] != end[0])
+
+                indent_chances[start[1]] = text
+                # allow to line up tokens
+            if start[1] not in indent_chances:
+            assert len(indent) == depth + 1
+                        break
+                        parens[idx] -= 1
+                    if parens[idx]:
+                for idx in range(row, -1, -1):
+                    indent_chances[indent[depth]] = True
+                if depth:
+                depth -= 1
+                del open_rows[depth + 1:]
+                        del indent_chances[ind]
+                    if ind >= prev_indent:
+                for ind in list(indent_chances):
+                        indent[d] = 0
+                    if indent[d] > prev_indent:
+                for d in range(depth):
+                hangs.pop()
+                prev_indent = indent.pop() or last_indent[1]
+                # parent indents should not be more than this one
+            elif text in ')]}' and depth > 0:
+                          (depth, start[1], indent[depth]))
+                    print("bracket depth %s seen, col %s, visual min = %s" %
+                if verbose >= 4:
+                parens[row] += 1
+                open_rows[depth].append(row)
+                    open_rows.append([])
+                if len(open_rows) == depth:
+                hangs.append(None)
+                indent.append(0)
+                depth += 1
+            if text in '([{':
+        if token_type == tokenize.OP:
+        # keep track of bracket depth
+
+            open_rows[depth].append(row)
+        elif text == ':' and line[end[1]:].isspace():
+            indent_chances[end[1] + 1] = True
+        elif not indent_chances and not row and not depth and text == 'if':
+        # special case for the "if" statement because len("if (") == 4
+            indent_chances[start[1]] = str
+              text in ('u', 'ur', 'b', 'br')):
+        elif (token_type in (tokenize.STRING, tokenize.COMMENT) or
+        # deal with implicit string concatenation
+                print("bracket depth %s indent to %s" % (depth, start[1]))
+            if verbose >= 4:
+            indent_chances[start[1]] = True
+            indent[depth] = start[1]
+                and not indent[depth]):
+        if (parens[row] and token_type not in (tokenize.NL, tokenize.COMMENT)
+        # look for visual indenting
+
+                yield start, "%s continuation line %s" % error
+                        error = "E121", "under-indented for hanging indent"
+                    else:
+                        error = "E126", "over-indented for hanging indent"
+                    if hang > 4:
+                    hangs[depth] = hang
+                else:
+                    error = "E131", "unaligned for hanging indent"
+                elif not close_bracket and hangs[depth]:
+                    error = "E127", "over-indented for visual indent"
+                elif indent[depth]:
+                    error = "E122", "missing indentation or outdented"
+                if hang <= 0:
+                # indent is broken
+            else:
+                pass
+                # ignore token lined up with matching one from a previous line
+            elif visual_indent in (text, str):
+                indent[depth] = start[1]
+                # visual indent is verified
+            elif visual_indent is True:
+                hangs[depth] = hang
+                           "indentation of opening bracket's line")
+                    yield (start, "E123 closing bracket does not match "
+                if close_bracket and not hang_closing:
+                # hanging indent is verified
+            elif hanging_indent or (indent_next and rel_indent[row] == 8):
+                           "under-indented for visual indent")
+                    yield (start, "E128 continuation line "
+                    # visual indent is broken
+                if visual_indent is not True:
+            elif indent[depth] and start[1] < indent[depth]:
+                    yield start, "E133 closing bracket is missing indentation"
+                if hang_closing:
+                # closing bracket matches indentation of opening bracket's line
+            elif close_bracket and not hang:
+                           "visual indentation")
+                    yield (start, "E124 closing bracket does not match "
+                if start[1] != indent[depth]:
+                # closing bracket for visual indent
+            if close_bracket and indent[depth]:
+
+                             indent_chances.get(start[1]))
+            visual_indent = (not close_bracket and hang > 0 and
+            # is there any chance of visual indent?
+                hanging_indent = (hang == hangs[depth])
+            if hangs[depth]:
+                    break
+                if hanging_indent:
+                hanging_indent = hang in valid_hangs
+                hang = rel_indent[row] - rel_indent[open_row]
+            for open_row in reversed(open_rows[depth]):
+            # is the indent relative to an opening bracket line?
+
+            close_bracket = (token_type == tokenize.OP and text in ']})')
+            # identify closing bracket
+
+            rel_indent[row] = expand_indent(line) - indent_level
+            # record the initial indent.
+
+                print("... " + line.rstrip())
+            if verbose >= 3:
+            last_indent = start
+            # this is the beginning of a continuation line.
+        if newline:
+
+            newline = not last_token_multiline and token_type not in NEWLINE
+            row = start[0] - first_row
+        if newline:
+        newline = row < start[0] - first_row
+
+    for token_type, text, start, end, line in tokens:
+
+        print(">>> " + tokens[0][4].rstrip())
+    if verbose >= 3:
+    indent = [last_indent[1]]
+    # for each depth, memorize the visual indent column
+    visual_indent = None
+    last_indent = tokens[0][2]
+    indent_chances = {}
+    # visual indents
+    hangs = [None]
+    # for each depth, memorize the hanging indentation
+    open_rows = [[0]]
+    # for each depth, collect a list of opening rows
+    rel_indent = [0] * nrows
+    # relative indents of physical lines
+    parens = [0] * nrows
+    # remember how many brackets were opened on each line
+    valid_hangs = (4,) if indent_char != '\t' else (4, 8)
+    row = depth = 0
+
+    indent_next = logical_line.endswith(':')
+    # indents are allowed to have an extra 4 spaces.
+    # indents on the final continuation line; in turn, some other
+    # that it is indented by 4 spaces, then we should not allow 4-space
+    # indent_next tells us whether the next block is indented; assuming
+
+        return
+    if noqa or nrows == 1:
+    nrows = 1 + tokens[-1][2][0] - first_row
+    first_row = tokens[0][2][0]
+    """
+    E131: a = (\n    42\n 24)
+    E129: if (a or\n    b):\n    pass
+    E128: a = (24,\n    42)
+    E127: a = (24,\n      42)
+    E126: a = (\n        42)
+    E125: if (\n    b):\n    pass
+    E124: a = (24,\n     42\n)
+    E123: a = (\n    42\n    )
+    E122: a = (\n42)
+    E121: a = (\n   42)
+    Okay: a = (\n    42)
+
+    E123: a = (\n    )
+    Okay: a = (\n)
+
+      continuation line.
+    - further indentation should be used to clearly distinguish itself as a
+    - there should be no arguments on the first line, and
+    When using a hanging indent these considerations should be applied:
+
+    and braces, or using a hanging indent.
+    using Python's implicit line joining inside parentheses, brackets
+    Continuation lines should align wrapped elements either vertically
+
+    r"""Continuation lines indentation.
+                          indent_char, noqa, verbose):
+def continued_indentation(logical_line, tokens, indent_level, hang_closing,
+
+
+        yield 0, tmpl % (3 + c, "unexpected indentation")
+    elif not indent_expect and indent_level > previous_indent_level:
+        yield 0, tmpl % (2 + c, "expected an indented block")
+    if indent_expect and indent_level <= previous_indent_level:
+    indent_expect = previous_logical.endswith(':')
+        yield 0, tmpl % (1 + c, "indentation is not a multiple of four")
+    if indent_level % 4:
+    tmpl = "E11%d %s" if logical_line else "E11%d %s (comment)"
+    c = 0 if logical_line else 3
+    """
+    E116: a = 1\n    # b = 2
+    E113: a = 1\n    b = 2
+    Okay: a = 1\nb = 2
+
+    E115: for item in items:\n# Hi\n    pass
+    E112: for item in items:\npass
+    Okay: for item in items:\n    pass
+
+    E114:   # a = 1
+    E111:   a = 1
+    Okay: if a == 0:\n    a = 1
+    Okay: a = 1
+
+    use 8-space tabs.
+    For really old code that you don't want to mess up, you can continue to
+
+    r"""Use 4 spaces per indentation level.
+                indent_level, previous_indent_level):
+def indentation(logical_line, previous_logical, indent_char,
+
+
+            yield index, "E231 missing whitespace after '%s'" % char
+                continue  # Allow tuple with only one element: (3,)
+            if char == ',' and line[index + 1] == ')':
+                continue  # Slice syntax, no space required
+                    before.rfind('{') < before.rfind('['):
+            if char == ':' and before.count('[') > before.count(']') and \
+            before = line[:index]
+        if char in ',;:' and line[index + 1] not in WHITESPACE:
+        char = line[index]
+    for index in range(len(line) - 1):
+    line = logical_line
+    """
+    E231: [{'a':'b'}]
+    E231: foo(bar,baz)
+    E231: ['a','b']
+    Okay: a[1:4:2]
+    Okay: a[1:]
+    Okay: a[:4]
+    Okay: a[1:4]
+    Okay: (3,)
+    Okay: [a, b]
+
+    r"""Each comma, semicolon or colon should be followed by whitespace.
+def missing_whitespace(logical_line):
+
+
+            yield match.start(2), "E271 multiple spaces after keyword"
+        elif len(after) > 1:
+            yield match.start(2), "E273 tab after keyword"
+        if '\t' in after:
+
+            yield match.start(1), "E272 multiple spaces before keyword"
+        elif len(before) > 1:
+            yield match.start(1), "E274 tab before keyword"
+        if '\t' in before:
+
+        before, after = match.groups()
+    for match in KEYWORD_REGEX.finditer(logical_line):
+    """
+    E274: True\tand False
+    E273: True and\tFalse
+    E272: True  and False
+    E271: True and  False
+    Okay: True and False
+
+    r"""Avoid extraneous whitespace around keywords.
+def whitespace_around_keywords(logical_line):
+
+
+            yield found, "%s whitespace before '%s'" % (code, char)
+            code = ('E202' if char in '}])' else 'E203')  # if char in ',;:'
+        elif line[found - 1] != ',':
+            yield found + 1, "E201 whitespace after '%s'" % char
+            # assert char in '([{'
+        if text == char + ' ':
+        found = match.start()
+        char = text.strip()
+        text = match.group()
+    for match in EXTRANEOUS_WHITESPACE_REGEX.finditer(line):
+    line = logical_line
+    """
+    E203: if x == 4 : print x, y; x, y = y, x
+    E203: if x == 4: print x, y ; x, y = y, x
+    E203: if x == 4: print x, y; x, y = y , x
+
+    E202: spam(ham[1], {eggs: 2 })
+    E202: spam(ham[1 ], {eggs: 2})
+    E202: spam(ham[1], {eggs: 2} )
+    E201: spam(ham[1], { eggs: 2})
+    E201: spam(ham[ 1], {eggs: 2})
+    E201: spam( ham[1], {eggs: 2})
+    Okay: spam(ham[1], {eggs: 2})
+
+    - Immediately before a comma, semicolon, or colon.
+    - Immediately inside parentheses, brackets or braces.
+    Avoid extraneous whitespace in these situations:
+
+    r"""Avoid extraneous whitespace.
+def extraneous_whitespace(logical_line):
+
+
+            yield 0, "E302 expected 2 blank lines, found %d" % blank_before
+        elif blank_before != 2:
+                yield 0, "E301 expected 1 blank line, found 0"
+                    DOCSTRING_REGEX.match(previous_logical)):
+            if not (blank_before or previous_indent_level < indent_level or
+        if indent_level:
+    elif logical_line.startswith(('def ', 'class ', '@')):
+        yield 0, "E303 too many blank lines (%d)" % blank_lines
+    elif blank_lines > 2 or (indent_level and blank_lines == 2):
+            yield 0, "E304 blank lines found after function decorator"
+        if blank_lines:
+    if previous_logical.startswith('@'):
+        return  # Don't expect blank lines before the first line
+    if line_number < 3 and not previous_logical:
+    """
+    E304: @decorator\n\ndef a():\n    pass
+    E303: def a():\n\n\n\n    pass
+    E303: def a():\n    pass\n\n\n\ndef b(n):\n    pass
+    E302: def a():\n    pass\n\ndef b(n):\n    pass
+    E301: class Foo:\n    b = 0\n    def bar():\n        pass
+
+    Okay: def a():\n    pass\n\n\n# Foo\n# Bar\n\ndef b():\n    pass
+    Okay: def a():\n    pass\n\n\ndef b():\n    pass
+
+    Use blank lines in functions, sparingly, to indicate logical sections.
+
+    one-liners (e.g. a set of dummy implementations).
+    functions.  Blank lines may be omitted between a bunch of related
+    Extra blank lines may be used (sparingly) to separate groups of related
+
+    Method definitions inside a class are separated by a single blank line.
+
+    r"""Separate top-level function and class definitions with two blank lines.
+                blank_before, previous_logical, previous_indent_level):
+def blank_lines(logical_line, blank_lines, indent_level, line_number,
+
+
+##############################################################################
+# Plugins (check functions) for logical lines
+##############################################################################
+
+
+                    "(%d > %d characters)" % (length, max_line_length))
+            return (max_line_length, "E501 line too long "
+        if length > max_line_length:
+                pass
+            except UnicodeError:
+                length = len(line.decode('utf-8'))
+            try:
+            # The line could contain multi-byte characters
+        if hasattr(line, 'decode'):   # Python 2
+            return
+                len(line) - len(chunks[-1]) < max_line_length - 7:
+            (len(chunks) == 2 and chunks[0] == '#')) and \
+        if ((len(chunks) == 1 and multiline) or
+        chunks = line.split()
+        # but still report the error when the 72 first chars are whitespaces.
+        # Special case for long URLs in multi-line docstrings or comments,
+    if length > max_line_length and not noqa(line):
+    length = len(line)
+    line = physical_line.rstrip()
+    """
+    Reports error E501.
+
+    length to 72 characters is recommended.
+    For flowing long blocks of text (docstrings or comments), limiting the
+    ugly.  Therefore, please limit all lines to a maximum of 79 characters.
+    several windows side-by-side.  The default wrapping on such devices looks
+    lines; plus, limiting windows to 80 characters makes it possible to have
+    There are still many devices around that are limited to 80 character
+
+    r"""Limit all lines to a maximum of 79 characters.
+def maximum_line_length(physical_line, max_line_length, multiline):
+
+
+            return len(physical_line), "W292 no newline at end of file"
+        if stripped_last_line == physical_line:
+            return 0, "W391 blank line at end of file"
+        if not stripped_last_line:
+        stripped_last_line = physical_line.rstrip()
+    if line_number == total_lines:
+    """
+    However the last line should end with a new line (warning W292).
+
+    W391: spam(1)\n
+    Okay: spam(1)
+
+    r"""Trailing blank lines are superfluous.
+def trailing_blank_lines(physical_line, lines, line_number, total_lines):
+
+
+            return 0, "W293 blank line contains whitespace"
+        else:
+            return len(stripped), "W291 trailing whitespace"
+        if stripped:
+    if physical_line != stripped:
+    stripped = physical_line.rstrip(' \t\v')
+    physical_line = physical_line.rstrip('\x0c')  # chr(12), form feed, ^L
+    physical_line = physical_line.rstrip('\r')    # chr(13), carriage return
+    physical_line = physical_line.rstrip('\n')    # chr(10), newline
+    """
+    W293: class Foo(object):\n    \n    bang = 12
+    W291: spam(1) \n#
+    Okay: spam(1)\n#
+
+    filtering for those who want to indent their blank lines.
+    The warning returned varies on whether the line itself is blank, for easier
+
+    r"""Trailing whitespace is superfluous.
+def trailing_whitespace(physical_line):
+
+
+        return indent.index('\t'), "W191 indentation contains tabs"
+    if '\t' in indent:
+    indent = INDENT_REGEX.match(physical_line).group(1)
+    """
+    W191: if True:\n\treturn
+    Okay: if True:\n    return
+
+    r"""For new projects, spaces-only are strongly recommended over tabs.
+def tabs_obsolete(physical_line):
+
+
+            return offset, "E101 indentation contains mixed spaces and tabs"
+        if char != indent_char:
+    for offset, char in enumerate(indent):
+    indent = INDENT_REGEX.match(physical_line).group(1)
+    """
+    E101: if a == 0:\n        a = 1\n\tb = 1
+    Okay: if a == 0:\n        a = 1\n        b = 1
+
+    these warnings become errors.  These options are highly recommended!
+    warnings about code that illegally mixes tabs and spaces.  When using -tt
+    invoking the Python command line interpreter with the -t option, it issues
+    of tabs and spaces should be converted to using spaces exclusively.  When
+    second-most popular way is with tabs only.  Code indented with a mixture
+    The most popular way of indenting Python is with spaces only.  The
+
+    r"""Never mix tabs and spaces.
+def tabs_or_spaces(physical_line, indent_char):
+
+
+##############################################################################
+# Plugins (check functions) for physical lines
+##############################################################################
+
+
+COMMENT_WITH_NL = tokenize.generate_tokens(['#\n'].pop).send(None)[1] == '#\n'
+# a comment which is on a line by itself.
+# Work around Python < 2.6 behaviour, which does not generate NL after
+
+HUNK_REGEX = re.compile(r'^@@ -\d+(?:,\d+)? \+(\d+)(?:,(\d+))? @@.*$')
+LAMBDA_REGEX = re.compile(r'\blambda\b')
+OPERATOR_REGEX = re.compile(r'(?:[^,\s])(\s*)(?:[-+*/|!<=>%&^]+)(\s*)')
+KEYWORD_REGEX = re.compile(r'(\s*)\b(?:%s)\b(\s*)' % r'|'.join(KEYWORDS))
+                                r'|\s*\(\s*([^)]*[^ )])\s*\))')
+COMPARE_TYPE_REGEX = re.compile(r'(?:[=!]=|is(?:\s+not)?)\s*type(?:s.\w+Type'
+COMPARE_NEGATIVE_REGEX = re.compile(r'\b(not)\s+[^[({ ]+\s+(in|is)\s')
+COMPARE_SINGLETON_REGEX = re.compile(r'([=!]=)\s*(None|False|True)')
+WHITESPACE_AFTER_COMMA_REGEX = re.compile(r'[,;:]\s*(?:  |\t)')
+EXTRANEOUS_WHITESPACE_REGEX = re.compile(r'[[({] | []}),;:]')
+DOCSTRING_REGEX = re.compile(r'u?r?["\']')
+ERRORCODE_REGEX = re.compile(r'\b[A-Z]\d{3}\b')
+RERAISE_COMMA_REGEX = re.compile(r'raise\s+\w+\s*,.*,\s*\w+\s*$')
+RAISE_COMMA_REGEX = re.compile(r'raise\s+\w+\s*,')
+INDENT_REGEX = re.compile(r'([ \t]*)')
+
+BENCHMARK_KEYS = ['directories', 'files', 'logical lines', 'physical lines']
+SKIP_COMMENTS = SKIP_TOKENS.union([tokenize.COMMENT, tokenize.ERRORTOKEN])
+# ERRORTOKEN is triggered by backticks in Python 3
+SKIP_TOKENS = NEWLINE.union([tokenize.INDENT, tokenize.DEDENT])
+NEWLINE = frozenset([tokenize.NL, tokenize.NEWLINE])
+WHITESPACE = frozenset(' \t')
+    '%=', '^=', '&=', '|=', '==', '<=', '>=', '<<=', '>>=', '='])
+    '**=', '*=', '/=', '//=', '+=', '-=', '!=', '<>', '<', '>',
+WS_NEEDED_OPERATORS = frozenset([
+WS_OPTIONAL_OPERATORS = ARITHMETIC_OP.union(['^', '&', '|', '<<', '>>', '%'])
+ARITHMETIC_OP = frozenset(['**', '*', '/', '//', '+', '-'])
+UNARY_OPERATORS = frozenset(['>>', '**', '*', '+', '-'])
+KEYWORDS = frozenset(keyword.kwlist + ['print']) - SINGLETONS
+SINGLETONS = frozenset(['False', 'None', 'True'])
+PyCF_ONLY_AST = 1024
+
+}
+    'pylint': '%(path)s:%(row)d: [%(code)s] %(text)s',
+    'default': '%(path)s:%(row)d:%(col)d: %(code)s %(text)s',
+REPORT_FORMAT = {
+MAX_LINE_LENGTH = 79
+TESTSUITE_PATH = os.path.join(os.path.dirname(__file__), 'testsuite')
+PROJECT_CONFIG = ('setup.cfg', 'tox.ini', '.pep8')
+                                  os.path.expanduser('~/.config'), 'pep8')
+    DEFAULT_CONFIG = os.path.join(os.getenv('XDG_CONFIG_HOME') or
+else:
+    DEFAULT_CONFIG = os.path.expanduser(r'~\.pep8')
+if sys.platform == 'win32':
+DEFAULT_IGNORE = 'E123,E226,E24,E704'
+DEFAULT_EXCLUDE = '.svn,CVS,.bzr,.hg,.git,__pycache__'
+
+    from ConfigParser import RawConfigParser
+except ImportError:
+    from io import TextIOWrapper
+    from configparser import RawConfigParser
+try:
+from fnmatch import fnmatch
+from optparse import OptionParser
+import tokenize
+import keyword
+import inspect
+import time
+import re
+import sys
+import os
+
+__version__ = '1.6.0a0'
+
+from __future__ import with_statement
+"""
+900 syntax error
+700 statements
+600 deprecation
+500 line length
+400 imports
+300 blank lines
+200 whitespace
+100 indentation
+W warnings
+E errors
+Groups of errors and warnings:
+
+http://github.com/jcrocholl/pep8
+This program and its regression test suite live here:
+
+$ python pep8.py -h
+For usage and a list of options, try this:
+
+Check Python source code formatting, according to PEP 8.
+r"""
+
+# SOFTWARE.
+# CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+# BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+# NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+#
+# included in all copies or substantial portions of the Software.
+# The above copyright notice and this permission notice shall be
+#
+# subject to the following conditions:
+# and to permit persons to whom the Software is furnished to do so,
+# publish, distribute, sublicense, and/or sell copies of the Software,
+# including without limitation the rights to use, copy, modify, merge,
+# (the "Software"), to deal in the Software without restriction,
+# obtaining a copy of this software and associated documentation files
+# Permission is hereby granted, free of charge, to any person
+#
+# Copyright (C) 2009-2014 Florent Xicluna <florent.xicluna@gmail.com>
+# Copyright (C) 2006-2009 Johann C. Rocholl <johann@rocholl.net>
+# pep8.py - Check Python source code formatting, according to PEP 8
+#!/usr/bin/env python
